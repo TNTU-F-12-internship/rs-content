@@ -1,0 +1,4 @@
+github.com/hal-hive/gohugo-theme-ananke v0.0.0-20221031111735-fcdf061599e2 h1:2J1Qzy1yoKsULwVlFsMOoUj/two6e3p7QHC+cZx0xMQ=
+github.com/hal-hive/gohugo-theme-ananke v0.0.0-20221031111735-fcdf061599e2/go.mod h1:s/XsBPZJNup2mKNpn3Q2sNeMsyAfhJ57VJp0gXYEShU=
+gitlab.com/rs-site/rs-theme v0.0.0-20221129171134-4e98a5846906 h1:xGHJOXoRa+BF9LI3DD3ls1LS/shWd95mY+sukLJg250=
+gitlab.com/rs-site/rs-theme v0.0.0-20221129171134-4e98a5846906/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=

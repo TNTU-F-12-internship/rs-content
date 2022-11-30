@@ -1,0 +1,9 @@
+services:
+  server:
+    image: klakegg/hugo:0.104.3-ext-ubuntu
+    command: server
+    volumes:
+      - ".:/src"
+#      - "/home/halyna/Documents/Projects/Hugo/RS-Website/rs-theme/:/src/themes/rs-theme/"
+    ports:
+      - "1313:1313"
