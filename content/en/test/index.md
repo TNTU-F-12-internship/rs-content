@@ -1,10 +1,8 @@
 ---
-title: "About"
-description: "Description"
+title: Test
+description: Test description
 featured_image: '/image/background_photo.jpg'
-menu:
-  main:
-    weight: 1
+
 ---
 {{< figure src="/image/background_photo.jpg" title="alt to cover photo" >}}
 
