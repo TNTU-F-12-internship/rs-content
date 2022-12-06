@@ -1,7 +1,6 @@
 ---
-title: Services
+title: Rework-Space
 url: '/services'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:

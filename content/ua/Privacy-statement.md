@@ -1,7 +1,6 @@
 ---
 title: Політика в сфері конфіденційності та персональних даних
 url: '/ua/about/privacy'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: true
 type: page
 menu:

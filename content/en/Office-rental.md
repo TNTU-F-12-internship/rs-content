@@ -1,7 +1,6 @@
 ---
 title: Office rental
 url: '/services/rent'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 description: Your perfect turnkey solution
 type: page

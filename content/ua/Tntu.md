@@ -1,7 +1,6 @@
 ---
 title: ТНТУ
 url: '/ua/cooperation/tntu'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:

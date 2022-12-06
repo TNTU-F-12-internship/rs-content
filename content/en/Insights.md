@@ -1,7 +1,6 @@
 ---
 title: Insights
 url: '/case-studies/insights'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:

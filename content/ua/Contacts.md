@@ -1,7 +1,6 @@
 ---
 title: Контакти
 url: '/ua/about/contacts'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: true
 type: page
 menu:

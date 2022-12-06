@@ -1,7 +1,6 @@
 ---
 title: Оренда офісу
 url: '/ua/services/rent'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 description: ваше ідеальне рішення під ключ
 type: page

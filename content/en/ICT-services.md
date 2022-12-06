@@ -1,7 +1,6 @@
 ---
 title: ICT services
 url: '/services/ict-services'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:

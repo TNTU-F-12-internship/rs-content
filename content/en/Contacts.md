@@ -1,7 +1,6 @@
 ---
 title: Contacts
 url: '/about/contacts'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: true
 description: We'd love to hear from you
 type: page

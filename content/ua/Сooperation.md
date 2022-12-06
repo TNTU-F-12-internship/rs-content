@@ -1,7 +1,6 @@
 ---
 title: Співпраця
 url: '/ua/cooperation'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:

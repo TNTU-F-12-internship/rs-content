@@ -1,11 +1,11 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Rework Space'
+title = 'Rework-Space'
 theme = ["rs-theme"]
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 2 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -19,7 +19,6 @@ enableRobotsTXT = true
     customFooterLine1 = "10 Berezhans'ka St, office 82"
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 067 324 6141'
-    # languageDirection = 'rtl' for Right-To-Left languages
   [languages.ua]
     title = "Rework-Space"
     weight = 2
@@ -42,8 +41,10 @@ enableRobotsTXT = true
   siteLogo = '/image/rework_logo_10grey_008080.png'
   description = "The last theme you'll ever need. Maybe."
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-mid-gray"
-  recent_posts_number = 3
+  background_color_class = "bg-mid-gray" # header and footer default background color
+  body_classes = "avenir bg-white" # font and body background color
+  recent_posts_number = 2
+  date_format = '2006-01-02'
 
 [[params.ananke_socials]]
 name = "twitter"

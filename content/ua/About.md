@@ -1,7 +1,6 @@
 ---
 title: Про нас
 url: '/ua/about'
-featured_image: '/image/background_photo.jpg'
 omit_header_text: false
 type: page
 menu:
