@@ -2,8 +2,8 @@
 title: Terraform provider for FreeIPA DNS management
 url: '/blog/2022-07-01-terraform-provider-for-freeipa-dns-management'
 omit_header_text: false
-featured_image: '/image/post-1-banner.jpg'
-summary_image: '/image/post-1-short.jpg'
+featured_image: '/blog-images/post-1-banner.jpg'
+summary_image: '/blog-images/post-1-short.jpg'
 date_prefix: 'Published #'
 date: 2022-07-01
 read_more_copy: 'Read more ->'
