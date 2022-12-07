@@ -8,7 +8,6 @@ date_prefix: 'Published #'
 date: 2022-07-01
 read_more_copy: 'Read more ->'
 
-
 ---
 
 [Terraform provider](https://registry.terraform.io/providers/rework-space-com/freeipa/latest/docs)
@@ -16,11 +15,11 @@ for  FreeIPA DNS management is developed and proposed by Rework-Space Infrastruc
 
 Tested on FreeIPA version 4.9.1
 
-Requirements:
+#### Requirements:
 - [Terraform](https://www.terraform.io/) 1.0.x
 - Go 1.18 (to build the provider plugin)
 
-Resources:
+#### Resources:
 - freeipa_dns_record
 - freeipa_dns_zone
 - freeipa_group

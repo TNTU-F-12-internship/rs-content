@@ -33,6 +33,6 @@ parent: ua-blog
 для користувачів.
 
 Для початку, ми провели деякі перевірки та дослідження хостингу, що дозволило нам налаштувати правила 
-AWS Web Application Firewall (WAF). У результаті ми захистили веб-сайт [uhelpukraine.org](https://uhelpukraine.org/) 
-від поширених експлойтів, а також детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 
-нелегітимних запитів.
+AWS Web Application Firewall ([WAF](https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html)). 
+У результаті ми захистили веб-сайт [uhelpukraine.org](https://uhelpukraine.org/) від поширених експлойтів, а також 
+детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 нелегітимних запитів.
