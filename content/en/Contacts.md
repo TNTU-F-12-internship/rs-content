@@ -15,12 +15,8 @@ menu:
 
 ### Rework-Space
 
-10 Berezhans'ka St, office 82
-
-46027, Ternopil, Ukraine
-
-Phone: +38 067 324 6141
-
-sales@rework-space.com
-
-www.rework-space.com
+10 Berezhans'ka St, office 82  
+46027, Ternopil, Ukraine  
+Phone: +38 067 324 6141  
+sales@rework-space.com  
+www.rework-space.com  

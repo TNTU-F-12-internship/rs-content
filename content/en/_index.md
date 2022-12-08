@@ -13,7 +13,7 @@ menu:
     weight: 1
 ---
 
-Modern solutions that become the basis for innovation and help businesses achieve bold goals
+### Modern solutions that become the basis for innovation and help businesses achieve bold goals
 
 ## [ICT security]({{< ref "/ICT-security" >}})
 
