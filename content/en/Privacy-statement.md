@@ -19,7 +19,7 @@ menu:
   - [Collection of personal data](#collection-of-personal-data)
   - [Cookies](#cookies)
   - [Use of personal data](#use-of-personal-data)
-  - [Legal basis for the processing](#legal-basis-for-the-processing)
+  - [Legal basis for processing personal data](#legal-basis-for-processing-personal-data)
   - [Data retention](#data-retention)
 - [Recruitment applicants](#recruitment-applicants)
 - [Legal basis for processing](#legal-basis-for-processing)
@@ -111,7 +111,7 @@ Our websites do not collect or compile personal data for the dissemination or sa
 marketing purposes or host mailings on behalf of third parties. If there is an instance where such information may be 
 shared with a party that is not a Rework-Space member firm, the visitor will be asked for their consent beforehand.
 
-##### Legal basis for the processing
+##### Legal basis for processing personal data
 
 We will process personal data of visitors to our website based on our legitimate business interests or the consent, if 
 the data subject has been requested to express one. For example, we have an interest in making sure our marketing is 
@@ -158,7 +158,7 @@ of the EEA to a country not determined by the European Commission as providing a
 personal data, the transfers will be under an agreement which covers the EU requirements for the transfer of personal 
 data outside the EEA, such as the European Commission approved standard contractual clauses.  The European Commission 
 approved standard contractual clauses are available 
-[here](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en).
+[here](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en).
 
 Personal data held by us may be transferred to:
 - Third party organisations that provide applications/functionality, data processing or IT services to us

@@ -29,6 +29,7 @@ Forget about the daily worries of organizing an office: we will take care of all
 You get a single contract and simple reporting.
 
 {{< figure src="/content-images/office-rental-image-2.jpg" alt="Woman working at laptop" title="">}}
+
 #### Work as you see fit
 
 Rework-Space is a new way to use office space. Pay only one payment per month for your individual office suite.
@@ -55,6 +56,6 @@ An advanced service tailored to your needs awaits you.
 - Office cleaning and care
 - There is a kitchen where you can drink tea and coffee
 
-{{< figure src="/content-images/office-rental-image-4.png" alt="" title="">}}
+{{< figure src="/content-images/office-rental-image-4.png" alt="Checklist" title="">}}
 
 #### Try it now

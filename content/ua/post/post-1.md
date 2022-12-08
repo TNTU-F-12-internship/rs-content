@@ -8,7 +8,6 @@ date_prefix: 'Опубліковано #'
 date: 2022-07-01
 read_more_copy: 'Детальніше ->'
 
-
 ---
 
 [Terraform DNS провайдер](https://registry.terraform.io/providers/rework-space-com/freeipa/latest/docs) 
