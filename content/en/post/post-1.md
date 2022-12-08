@@ -2,12 +2,11 @@
 title: Terraform provider for FreeIPA DNS management
 url: '/blog/2022-07-01-terraform-provider-for-freeipa-dns-management'
 omit_header_text: false
-featured_image: '/image/post-1-banner.jpg'
-summary_image: '/image/post-1-short.jpg'
+featured_image: '/blog-images/post-1-banner.jpg'
+summary_image: '/blog-images/post-1-short.jpg'
 date_prefix: 'Published #'
 date: 2022-07-01
 read_more_copy: 'Read more ->'
-
 
 ---
 
@@ -16,11 +15,11 @@ for  FreeIPA DNS management is developed and proposed by Rework-Space Infrastruc
 
 Tested on FreeIPA version 4.9.1
 
-Requirements:
+#### Requirements:
 - [Terraform](https://www.terraform.io/) 1.0.x
 - Go 1.18 (to build the provider plugin)
 
-Resources:
+#### Resources:
 - freeipa_dns_record
 - freeipa_dns_zone
 - freeipa_group

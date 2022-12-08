@@ -2,8 +2,8 @@
 title: Стримування DDoS атак для краудфандингової ініціативи Canadian Bayraktar
 url: '/ua/blog/DDoS-attack-mitigation-for-Canadian-Bayraktar-crowdfunding-initiative'
 omit_header_text: false
-featured_image: '/image/post-2-banner.png'
-summary_image: '/image/post-2-short.jpeg'
+featured_image: '/blog-images/post-2-banner.png'
+summary_image: '/blog-images/post-2-short.jpeg'
 date_prefix: 'Опубліковано #'
 date: 2022-08-01
 read_more_copy: 'Детальніше ->'
@@ -33,6 +33,6 @@ parent: ua-blog
 для користувачів.
 
 Для початку, ми провели деякі перевірки та дослідження хостингу, що дозволило нам налаштувати правила 
-AWS Web Application Firewall (WAF). У результаті ми захистили веб-сайт [uhelpukraine.org](https://uhelpukraine.org/) 
-від поширених експлойтів, а також детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 
-нелегітимних запитів.
+AWS Web Application Firewall ([WAF](https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html)). 
+У результаті ми захистили веб-сайт [uhelpukraine.org](https://uhelpukraine.org/) від поширених експлойтів, а також 
+детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 нелегітимних запитів.
