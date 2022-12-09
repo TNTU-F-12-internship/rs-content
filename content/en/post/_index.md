@@ -2,8 +2,11 @@
 title: Blog
 url: '/blog'
 omit_header_text: true
-identifier: blog
-
+menu:
+  main:
+    identifier: blog
+    name: Blog
+    weight: 3
 ---
 
 Posts

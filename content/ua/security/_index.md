@@ -2,7 +2,6 @@
 title: Кібербезпека
 url: '/ua/services/ict-security'
 omit_header_text: false
-final_message: Для додаткової консультації
 type: page
 menu:
   main:
@@ -10,6 +9,7 @@ menu:
     parent: ua-services
     name: Кібербезпека
     weight: 1
+final_message: Для додаткової консультації
 ---
 
 Безперервно та швидко зростаючі загрози в сфері кібербезпеки вимагають від компаній пошуку і використання найсучасніших 
