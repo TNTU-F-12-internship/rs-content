@@ -1,14 +1,14 @@
 ---
-title: Кібербезпека
-url: '/ua/services/ict-security'
+title: ict-Тест
+url: '/ua/services/ict'
 omit_header_text: false
 type: page
 menu:
   main:
-    identifier: ua-ict-security
+    identifier: ua-ict
     parent: ua-services
-    name: Кібербезпека
-    weight: 1
+    name: ict-Тест
+    weight: 4
 
 ---
 

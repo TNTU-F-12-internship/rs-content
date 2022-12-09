@@ -16,9 +16,9 @@ menu:
 
 ### Сучасні рішення, що стають основою для інновацій та допомагають бізнесу досягати сміливих цілей
 
-## [Кібербезпека]({{< ref "/ICT-security" >}})
+## [Кібербезпека]({{< ref "/security/_index.md" >}})
 
-[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/ICT-security" >}})
+[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/security/_index.md" >}})
 
 ## [ІТ інфраструктура]({{< ref "/ICT-services" >}})
 
