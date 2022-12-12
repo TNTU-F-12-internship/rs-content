@@ -15,9 +15,9 @@ menu:
 
 ### Modern solutions that become the basis for innovation and help businesses achieve bold goals
 
-## [ICT security]({{< ref "/ICT-security" >}})
+## [ICT security]({{< ref "/img-right/_index.md" >}})
 
-[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/ICT-security" >}})
+[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/img-right/_index.md" >}})
 
 ## [ICT services]({{< ref "/ICT-services" >}})
 
