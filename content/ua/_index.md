@@ -20,9 +20,9 @@ menu:
 
 [{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/img-right/_index.md" >}})
 
-## [ІТ інфраструктура]({{< ref "/ICT-services" >}})
+## [ІТ інфраструктура]({{< ref "/little-icons/_index.md" >}})
 
-[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/ICT-services" >}})
+[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/little-icons/_index.md" >}})
 
 ## [Рішення]({{< ref "/Case-studies" >}})
 
