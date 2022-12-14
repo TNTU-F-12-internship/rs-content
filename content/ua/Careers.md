@@ -13,6 +13,7 @@ menu:
 
 У Rework-Space ми створюємо культуру, яка дозволяє нашим людям досягати більшого.
 
-[Приєднуйтесь до команди Rework-Space](https://ua.rework-space.com/careers#h.kco3zfms5hv6)
+{{< color-link link_title="Приєднуйтесь до команди Rework-Space" path="https://ua.rework-space.com/careers#h.kco3zfms5hv6" target="_blank" >}}
 
-Надсилайте заявки та резюме на скриньку careers@rework-space.com
+Надсилайте заявки та резюме на скриньку
+{{< color-link link_title="careers@rework-space.com" path="mailto:careers@rework-space.com" >}}
