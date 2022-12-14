@@ -15,21 +15,20 @@ menu:
 
 ### Modern solutions that become the basis for innovation and help businesses achieve bold goals
 
-## [ICT security]({{< ref "/img-right/_index.md" >}})
+## {{< color-link link_title="ICT security" path="/services/ict-security" >}}
 
 [{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/img-right/_index.md" >}})
 
-## [ICT services]({{< ref "/little-icons/_index.md" >}})
+## {{< color-link link_title="ICT services" path="/services/ict-services/" >}}
 
 [{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/little-icons/_index.md" >}})
 
-## [Case studies]({{< ref "/Case-studies" >}})
+## {{< color-link link_title="Case studies" path="/case-studies/" >}}
 
 [{{< figure src="/content-images/case-studies-short.jpg" alt="Light bulb with drawing graph" title="">}}]({{< ref "/Case-studies" >}})
 
-## [Office rental]({{< ref "/Office-rental" >}})
+## {{< color-link link_title="Office rental" path="/services/rent/" >}}
 
 [{{< figure src="/content-images/office-rental-short.jpg" alt="Work desk" title="">}}]({{< ref "/Office-rental" >}})
 
 #### Start using the best professional services today
-

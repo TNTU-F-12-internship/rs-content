@@ -38,6 +38,7 @@ enableRobotsTXT = true
 [params]
   text_color = ""
   middle_title_color_code = "#008080"
+  link_color = "#008080"
   author = ""
   favicon = '/general-images/rework_logo.png'
   siteLogo = '/general-images/rework_logo_10grey_008080.png'
