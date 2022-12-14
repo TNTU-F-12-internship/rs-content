@@ -20,4 +20,4 @@ menu:
 
 Заявки на співбесіду приймаються до 2022-05-17
 
-{{< color-link link_title="Деталі за посиланням" path="https://bit.ly/3gOo2fe" >}}
+{{< color-link link_title="Деталі за посиланням" path="https://bit.ly/3gOo2fe" target="_blank" >}}
