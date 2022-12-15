@@ -10,7 +10,7 @@ read_more_copy: 'Read more ->'
 
 ---
 
-#### Introduction
+## {{< color-text text="Introduction" >}}
 
 To endure in a heroic battle defending the civilized world from russian aggression, Ukraine urgently and absolutely 
 needs more equipment to protect the sky. One of the most popular and efficient unmanned aerial vehicles is Turkish 
@@ -26,7 +26,7 @@ was started by UHelpUkraine on Jul 20, 2022 and attracted
 {{< color-link link_title="a lot of attention" path="https://www.einnews.com/pr_news/582045288/canadian-non-profit-uhelpukraine-raising-funds-for-crucial-drone-needed-in-ongoing-fight-against-russia" target="_blank" >}}
 , both anticipated and unwanted one.
 
-#### Attack signature detection and response
+## {{< color-text text="Attack signature detection and response" >}}
 
 Rework-Space team was involved in the project since Jul 23, 2022 to resolve issues with suspicious traffic activity 
 that caused poor performance of

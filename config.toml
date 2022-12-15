@@ -49,6 +49,7 @@ enableRobotsTXT = true
   body_classes = "avenir bg-white" # font and body background color
   recent_posts_number = 2
   date_format = '2006-01-02'
+  post_content_classes = "avenir"
 
 [[params.ananke_socials]]
 name = "twitter"
