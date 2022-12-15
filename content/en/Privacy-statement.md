@@ -9,7 +9,8 @@ menu:
     parent: about
     name: Privacy
     weight: 2
-
+final_message: "For any questions"
+single_page: privacy
 ---
 
 - [Introduction](#introduction)
@@ -33,10 +34,9 @@ menu:
   - [Right to restrict or object to our processing of personal data](#right-to-restrict-or-object-to-our-processing-of-personal-data)
   - [Other data subject rights](#other-data-subject-rights)
   - [Complaints](#complaints)
-- [For any questions](#for-any-questions)
 
 
-##### Introduction 
+### Introduction 
 
 We (“Rework-Space”, “us”, or “our”) are  strongly committed to protecting personal data.  This transparency notice 
 describes why and how we collect and use personal data and provides information about individuals’ rights.  We may use 
@@ -49,19 +49,19 @@ retention periods for each purpose may differ.
 
 When collecting and using personal data, our policy is to be transparent about why and how we process personal data.  
 
-##### Security 
+### Security 
 
 We take the security of all the data we hold very seriously.  We adhere to internationally recognised security 
 standards.  We have a framework of policies, procedures and training in place covering data protection, confidentiality 
 and security and regularly review the appropriateness of the measures we have in place to keep the data we hold secure.
 
-##### Our processing activities 
+### Our processing activities 
 
 To find out more please go to the sections of this statement that are relevant to you.
 
-#### Visitors to our website 
+## {{< color-text text="Visitors to our website" >}}
 
-##### Collection of personal data 
+### Collection of personal data 
 
 Visitors to our websites are generally in control of the personal data shared with us. We may capture limited personal 
 data automatically via the use of cookies on our website. Please see the section on Cookies below for more information.
@@ -79,7 +79,7 @@ to us for any reason, the act of doing so constitutes your explicit consent for 
 in the ways described in this privacy statement or as described at the point where you choose to disclose this 
 information.
 
-##### Cookies
+### Cookies
 
 We use small text files called ‘cookies’ which are placed on your hard drives to assist in personalising and enriching 
 your browsing experience by displaying content that is more likely to be relevant and of interest to you. The use of 
@@ -88,7 +88,7 @@ cookies, most browsers now permit users to opt-out of receiving them. You need t
 our website.  You may find other functionality in the website impaired if you disable cookies. After termination of 
 the visit to our site, you can always delete the cookie from your system if you wish.
 
-##### Use of personal data
+### Use of personal data
 
 When a visitor provides personal data to us, we will use it for the purposes for which it was provided to us as stated 
 at point of collection (or as obvious from the context of the collection). Typically, personal data is collected to:
@@ -111,19 +111,19 @@ Our websites do not collect or compile personal data for the dissemination or sa
 marketing purposes or host mailings on behalf of third parties. If there is an instance where such information may be 
 shared with a party that is not a Rework-Space member firm, the visitor will be asked for their consent beforehand.
 
-##### Legal basis for processing personal data
+### Legal basis for processing personal data
 
 We will process personal data of visitors to our website based on our legitimate business interests or the consent, if 
 the data subject has been requested to express one. For example, we have an interest in making sure our marketing is 
 relevant for specified individuals, so we may process personal data to send our marketing that is tailored to the 
 interests of a data subject.
 
-##### Data retention
+### Data retention
 
 Personal data collected via our websites will be retained by us for as long as it is necessary (e.g. for as long as we 
 have a relationship with the relevant individual).
 
-#### Recruitment applicants
+## {{< color-text text="Recruitment applicants" >}}
 
 When applying online for a role at Rework-Space via the Rework-Space careers website, applicants should refer to the 
 information made available when applying for a job for details about why and how personal data is collected and 
@@ -131,7 +131,7 @@ processed.
 
 For more detail about our recruitment processes, please visit our [career page]({{< ref "/Careers" >}}).
 
-#### Legal basis for processing
+## {{< color-text text="Legal basis for processing" >}}
 
 Legal bases for each processing activity are specified in the relevant sections above. When we process  personal 
 information for our legitimate interests, we make sure to consider and balance any potential impact on a data subject 
@@ -140,7 +140,7 @@ interests do not automatically override interests of the data subjects - we will
 activities where our interests are overridden by the impact on the data subject  (unless we have the consent or are 
 otherwise required or permitted to by law).
 
-##### When and how we share personal data and locations of processing
+### When and how we share personal data and locations of processing
 
 We will only share personal data with others when we are legally permitted to do so.  When we share data with others, 
 we put contractual arrangements and security mechanisms in place to protect the data and to comply with our data 
@@ -176,13 +176,13 @@ as to check that we are complying with applicable law and regulation, to investi
 exercise or defend legal rights.  We will only fulfil requests for personal data where we are permitted to do so in 
 accordance with applicable law or regulation.
 
-##### Changes to this privacy statement
+### Changes to this privacy statement
 
 We recognise that transparency is an ongoing responsibility so we will keep this privacy statement under regular review.
 
 This privacy statement was last updated on 2021-09-04.
 
-##### Data controller and contact information
+### Data controller and contact information
 
 The data controller is Rework-Space, that is a contracting party for the purposes of providing or receiving services 
 or the entity you have contacted.
@@ -194,18 +194,18 @@ If you have any questions about this privacy statement or how and why we process
 Email: complaint@rework-space.com  
 Phone: +38 068 699 3913
 
-##### Individuals’ rights and how to exercise them
+### Individuals’ rights and how to exercise them
 
 Individuals have certain rights over their personal data and data controllers are responsible for fulfilling these 
 rights.  Where we decide how and why personal data is processed, we are a data controller and include further 
 information about the rights that individuals have and how to exercise them below.
 
-##### Access to personal data
+### Access to personal data
 
 You have a right of access to personal data held by us as a data controller.  This right may be exercised by emailing 
 us at complaint@rework-space.com.
 
-##### Amendment of personal data
+### Amendment of personal data
 
 To update personal data submitted to us, you may email us at complaint@rework-space.com or, where appropriate, contact 
 us via the relevant website registration page or by amending the personal details held on relevant applications with 
@@ -214,14 +214,14 @@ which you registered.
 When practically possible, once we are informed that any personal data processed by us is no longer accurate, we will 
 make corrections (where appropriate) based on your updated information.
 
-##### Withdrawal of consent
+### Withdrawal of consent
 
 Where we process personal data based on consent, individuals have a right to withdraw consent at any time.  We do not 
 generally process personal data based on consent (as we can usually rely on another legal basis).  To withdraw consent 
 to our processing of your personal data please email us at  complaint@rework-space.com or, to stop receiving an email 
 from a Rework-Space marketing list, please click on the unsubscribe link in the relevant email received from us.
 
-##### Right to restrict or object to our processing of personal data
+### Right to restrict or object to our processing of personal data
 
 You have the right to restrict or object to the processing of your personal information at any time, on reasonable 
 grounds relating to your particular situation, unless the processing is required by law.
@@ -229,7 +229,7 @@ grounds relating to your particular situation, unless the processing is required
 In such case, we will no longer process or restrict the processing of the personal data, unless we can demonstrate 
 compelling legitimate grounds for the processing or for the establishment, exercise or defence of legal claims.
 
-##### Other data subject rights
+### Other data subject rights
 
 This transparency notice is intended to provide information about what personal data we collect about you and how it 
 is used.  As well as rights of access, amendment and restriction or objection to processing referred to above, 
@@ -238,11 +238,8 @@ the right to data portability.
 
 If you wish to exercise any of these rights, please send an email to complaint@rework-space.com.
 
-##### Complaints
+### Complaints
 
 We hope that you won’t ever need to, but if you do want to complain about our use of personal data, please send 
 an email with the details of your complaint to complaint@rework-space.com. We will look into and respond to any 
 complaints we receive.
-
-
-#### For any questions
