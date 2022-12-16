@@ -11,25 +11,9 @@ menu:
     identifier: ua-services
     name: Послуги
     weight: 1
-
+final_message: Почніть користуватися найкращим вже сьогодні
+layout: for-img-section
+sections_folder: page-index-services
 ---
 
 ### Сучасні рішення, що стають основою для інновацій та допомагають бізнесу досягати сміливих цілей
-
-## {{< color-link link_title="Кібербезпека" path="/ICT-security" >}}
-
-[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/ICT-security" >}})
-
-## {{< color-link link_title="ІТ інфраструктура" path="/ICT-services" >}}
-
-[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/ICT-services" >}})
-
-## {{< color-link link_title="Рішення" path="/ua/case-studies/" >}}
-
-[{{< figure src="/content-images/case-studies-short.jpg" alt="Light bulb with drawing graph" title="">}}]({{< ref "/Case-studies" >}})
-
-## {{< color-link link_title="Оренда офісу" path="/ua/services/rent/" >}}
-
-[{{< figure src="/content-images/office-rental-short.jpg" alt="Work desk" title="">}}]({{< ref "/Office-rental" >}})
-
-#### Почніть користуватися найкращим вже сьогодні
