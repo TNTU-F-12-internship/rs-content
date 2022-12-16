@@ -3,6 +3,7 @@ title: System access security
 section_image: '/content-images/case-studies-image-2.jpg'
 alt: "Hacker cracking binary code, data security"
 image_title: ""
+img_render_class: img-height-cover
 weight: 2
 ---
 

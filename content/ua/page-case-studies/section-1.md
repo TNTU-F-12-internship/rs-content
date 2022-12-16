@@ -3,6 +3,7 @@ title: Несумісність розрізнених рішень
 section_image: '/content-images/case-studies-image-1.jpg'
 alt: "Puzzle"
 image_title: ""
+img_render_class: img-height-cover
 weight: 1
 ---
 

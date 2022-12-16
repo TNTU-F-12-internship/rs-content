@@ -3,6 +3,7 @@ title: File sharing and collaboration
 section_image: '/content-images/case-studies-image-4.jpg'
 alt: "Smartphones sharing information with their applications"
 image_title: ""
+img_render_class: img-height-cover
 weight: 4
 ---
 

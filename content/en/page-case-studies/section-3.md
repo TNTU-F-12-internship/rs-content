@@ -3,6 +3,7 @@ title: Not enough storage space
 section_image: '/content-images/case-studies-image-3.jpg'
 alt: "Lots papers folders"
 image_title: ""
+img_render_class: img-height-cover
 weight: 3
 ---
 
