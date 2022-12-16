@@ -16,13 +16,13 @@ menu:
 
 ### Сучасні рішення, що стають основою для інновацій та допомагають бізнесу досягати сміливих цілей
 
-## {{< color-link link_title="Кібербезпека" path="/ua/services/ict-security" >}}
+## {{< color-link link_title="Кібербезпека" path="/ICT-security" >}}
 
-[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/img-right/_index.md" >}})
+[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/ICT-security" >}})
 
-## {{< color-link link_title="ІТ інфраструктура" path="/ua/services/ict-services/" >}}
+## {{< color-link link_title="ІТ інфраструктура" path="/ICT-services" >}}
 
-[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/little-icons/_index.md" >}})
+[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/ICT-services" >}})
 
 ## {{< color-link link_title="Рішення" path="/ua/case-studies/" >}}
 

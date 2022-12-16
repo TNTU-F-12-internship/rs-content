@@ -12,6 +12,8 @@ menu:
 final_message: Help your business grow
 article_title: "Communicate, cooperate and administer your work with us"
 article_subtitle: "The benefits of an integrated solution:"
+layout: little-icons
+sections_folder: page-ict-services
 ---
 
 Cloud business solutions are a set of tools for remote work and communication. A unified and efficient collaboration

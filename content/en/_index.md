@@ -15,13 +15,13 @@ menu:
 
 ### Modern solutions that become the basis for innovation and help businesses achieve bold goals
 
-## {{< color-link link_title="ICT security" path="/services/ict-security" >}}
+## {{< color-link link_title="ICT security" path="/ICT-security" >}}
 
-[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/img-right/_index.md" >}})
+[{{< figure src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" title="">}}]({{< ref "/ICT-security" >}})
 
-## {{< color-link link_title="ICT services" path="/services/ict-services/" >}}
+## {{< color-link link_title="ICT services" path="/ICT-services" >}}
 
-[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/little-icons/_index.md" >}})
+[{{< figure src="/content-images/ict-services-short.jpg" alt="Two computer screens with information" title="">}}]({{< ref "/ICT-services" >}})
 
 ## {{< color-link link_title="Case studies" path="/case-studies/" >}}
 

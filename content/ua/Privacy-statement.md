@@ -10,7 +10,7 @@ menu:
     name: Конфіденційність
     weight: 2
 final_message: "При будь-яких запитаннях"
-single_page: privacy
+layout: privacy
 ---
 
 - [Вступ](#вступ)
