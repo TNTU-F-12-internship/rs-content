@@ -10,7 +10,11 @@ menu:
     parent: about
     name: Contacts
     weight: 1
-
+layout: contacts-with-form
+form_folder: contacts-form
+submit_button: "Send"
+action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfj5DQCuWWxto7ZHr5wMASK_PkHL03T4AWWZLF1b_QRqfJ3AQ/formResponse"
+response_page: '/thank-you'
 ---
 
 ### Rework-Space
