@@ -10,7 +10,7 @@ menu:
     name: Privacy
     weight: 2
 final_message: "For any questions"
-single_page: privacy
+layout: privacy
 ---
 
 - [Introduction](#introduction)
@@ -59,7 +59,7 @@ and security and regularly review the appropriateness of the measures we have in
 
 To find out more please go to the sections of this statement that are relevant to you.
 
-## {{< color-text text="Visitors to our website" >}}
+## Visitors to our website
 
 ### Collection of personal data 
 
@@ -123,7 +123,7 @@ interests of a data subject.
 Personal data collected via our websites will be retained by us for as long as it is necessary (e.g. for as long as we 
 have a relationship with the relevant individual).
 
-## {{< color-text text="Recruitment applicants" >}}
+## Recruitment applicants
 
 When applying online for a role at Rework-Space via the Rework-Space careers website, applicants should refer to the 
 information made available when applying for a job for details about why and how personal data is collected and 
@@ -131,7 +131,7 @@ processed.
 
 For more detail about our recruitment processes, please visit our [career page]({{< ref "/Careers" >}}).
 
-## {{< color-text text="Legal basis for processing" >}}
+## Legal basis for processing
 
 Legal bases for each processing activity are specified in the relevant sections above. When we process  personal 
 information for our legitimate interests, we make sure to consider and balance any potential impact on a data subject 

@@ -23,8 +23,8 @@ dollars across the globe through grassroots fundraisers to ensure and conduct pu
 is a registered non-profit organization (REG. #1000182616, Canada) of proud Ukrainian-Canadian volunteers. An initiative
 {{< color-link link_title="#BuyaBayraktar" path="https://www.facebook.com/hashtag/BuyaBayraktar/" target="_blank" >}}
 was started by UHelpUkraine on Jul 20, 2022 and attracted
-{{< color-link link_title="a lot of attention" path="https://www.einnews.com/pr_news/582045288/canadian-non-profit-uhelpukraine-raising-funds-for-crucial-drone-needed-in-ongoing-fight-against-russia" target="_blank" >}}
-, both anticipated and unwanted one.
+{{< color-link link_title="a lot of attention" path="https://www.einnews.com/pr_news/582045288/canadian-non-profit-uhelpukraine-raising-funds-for-crucial-drone-needed-in-ongoing-fight-against-russia" target="_blank" >}}, 
+both anticipated and unwanted one.
 
 ## {{< color-text text="Attack signature detection and response" >}}
 
@@ -33,10 +33,8 @@ that caused poor performance of
 {{< color-link link_title="uhelpukraine.org" path="https://uhelpukraine.org/" target="_blank" >}}
 site.
 
-First, we have done some hosting audits and research which enabled us to configure AWS Web Application Firewall 
-(
-{{< color-link link_title="WAF" path="https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html" target="_blank" >}}
-).
+First, we have done some hosting audits and research which enabled us to configure AWS Web Application Firewall
+({{< color-link link_title="WAF" path="https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html" target="_blank" >}}).
 As a result, we have protected the web application
 {{< color-link link_title="uhelpukraine.org" path="https://uhelpukraine.org/" target="_blank" >}}
 from common web exploits and also researched the traffic in detail. In less than 2 days, 140 000 000 illegitimate 
