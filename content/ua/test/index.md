@@ -1,10 +1,12 @@
 ---
 title: Тест
 description: "Тестування оптимізації зображень"
-
+url: '/ua/test'
 ---
 
 #### мій img код
+
+
 
 rs-content static/general-images/ - дає помилку
 
