@@ -5,6 +5,7 @@
 - [Hugo documentation](https://gohugo.io/documentation)
 - Base theme - [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke)
 - [Hugo docker images](https://hub.docker.com/r/klakegg/hugo)
+- [Hugo Internal Templates](https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates)
 - [Hugo themes](https://themes.gohugo.io/)
 - [Tachyons documentation](http://tachyons.io/docs/)
 - [Tachyons color codes](https://tachyons.io/docs/themes/skins/) for base theme
