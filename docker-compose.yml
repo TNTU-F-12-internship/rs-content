@@ -4,6 +4,6 @@ services:
     command: server
     volumes:
       - ".:/src"
-      - "/home/halyna/Documents/Projects/Hugo/RS-Website/rs-theme/:/src/themes/rs-theme/"
+#      - "/home/halyna/Documents/Projects/Hugo/RS-Website/rs-theme/:/src/themes/rs-theme/"
     ports:
       - "1313:1313"

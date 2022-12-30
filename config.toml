@@ -1,7 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Rework-Space'
-theme = ["rs-theme"]
+#theme = ["rs-theme"]
+theme = ["gitlab.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 2 # this is set low for demonstrating with dummy content. Set to a higher number
