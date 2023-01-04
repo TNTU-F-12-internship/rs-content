@@ -1,4 +1,4 @@
-baseURL = 'https://rs-site.gitlab.io/rs-content/'
+baseURL = 'http://rework-space.com'
 languageCode = 'en-us'
 title = 'Rework-Space'
 #theme = ["rs-theme"]
