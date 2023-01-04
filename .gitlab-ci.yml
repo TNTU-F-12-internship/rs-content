@@ -3,10 +3,6 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:0.104.3
 variables:
   HUGO_ENV: production
 
-default:
-  before_script:
-    - hugo mod get gitlab.com/rs-site/rs-theme
-
 pages:
   script:
     - apk add --update --no-cache git go
