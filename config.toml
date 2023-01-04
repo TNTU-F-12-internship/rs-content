@@ -6,7 +6,7 @@ theme = ["gitlab.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "GTM-MBW5BLK"
 enableRobotsTXT = true
 
 [languages]
