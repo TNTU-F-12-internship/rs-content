@@ -1,0 +1,18 @@
+image: klakegg/hugo:0.104.3-ext-ubuntu
+
+variables:
+  HUGO_ENV: production
+
+default:
+  before_script:
+    - hugo mod get gitlab.com/rs-site/rs-theme
+
+pages:
+  script:
+    - hugo mod get gitlab.com/rs-site/rs-theme
+    - hugo
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
