@@ -6,7 +6,6 @@ featured_image: '/blog-images/post-1-banner.jpg'
 summary_image: '/blog-images/post-1-short.jpg'
 date_prefix: 'Published #'
 date: 2022-07-01
-read_more_copy: 'Read more ->'
 
 ---
 

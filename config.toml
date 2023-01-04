@@ -5,7 +5,7 @@ title = 'Rework-Space'
 theme = ["gitlab.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
-Paginate = 2 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -21,7 +21,8 @@ enableRobotsTXT = true
     customFooterLine1 = "10 Berezhans'ka St, office 82"
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 067 324 6141'
-  [languages.ua]
+    read_more_button = 'Read more ->'
+[languages.ua]
     title = "Rework-Space"
     weight = 2
     contentDir = "content/ua"
@@ -32,6 +33,7 @@ enableRobotsTXT = true
     customFooterLine1 = 'вул. Бережанська 10, офіс 82'
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
     customFooterLine3 = '+38 068 699 3913'
+    read_more_button = 'Детальніше ->'
 
 [sitemap]
   changefreq = "monthly"
@@ -50,7 +52,7 @@ enableRobotsTXT = true
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-mid-gray" # header and footer default background color
   body_classes = "avenir bg-white" # font and body background color
-  recent_posts_number = 2
+  recent_posts_number = 3
   date_format = '2006-01-02'
   post_content_classes = "avenir"
 

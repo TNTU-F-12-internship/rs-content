@@ -6,7 +6,6 @@ featured_image: '/blog-images/post-1-banner.jpg'
 summary_image: '/blog-images/post-1-short.jpg'
 date_prefix: 'Опубліковано #'
 date: 2022-07-01
-read_more_copy: 'Детальніше ->'
 
 ---
 
