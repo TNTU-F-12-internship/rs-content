@@ -39,11 +39,11 @@ As a result, we have protected the web application
 from common web exploits and also researched the traffic in detail. In less than 2 days, 140 000 000 illegitimate 
 requests were blocked.
 
-{{< figure src="/blog-images/post-2-image-1.png" alt="WAF requests visualization" title="Figure 1. WAF requests visualization">}}
+{{< img src="/blog-images/post-2-image-1.png" alt="WAF requests visualization" title="Figure 1. WAF requests visualization">}}
 
 CPU utilization improved considerably.
 
-{{< figure src="/blog-images/post-2-image-2.png" alt="EC2 instance CPU utilization" title="Figure 2. EC2 instance CPU utilization">}}
+{{< img src="/blog-images/post-2-image-2.png" alt="EC2 instance CPU utilization" title="Figure 2. EC2 instance CPU utilization">}}
 
 However, we discovered that there were short time intervals when WAF rules were not efficient and CPU utilization was 
 still high (Figure 2). Generally, AWS
@@ -71,7 +71,7 @@ proposes CDN cache (Google infrastructure),
 (should be enabled explicitly), metrics in a single dashboard at no cost at all,
 {{< color-link link_title="as a basic option" path="https://www.pcmag.com/opinions/inside-project-shield-jigsaws-anti-ddos-machine" target="_blank" >}}.
 
-{{< figure src="/blog-images/post-2-image-3.png" alt="Cost dynamics for uhelpukraine.org" title="Figure 3. Cost dynamics for uhelpukraine.org">}}
+{{< img src="/blog-images/post-2-image-3.png" alt="Cost dynamics for uhelpukraine.org" title="Figure 3. Cost dynamics for uhelpukraine.org">}}
 
 In conclusion, we got rid of expenses on the AWS side. Now
 {{< color-link link_title="UHelpUkraine" path="https://uhelpukraine.org/" target="_blank" >}}

@@ -41,11 +41,11 @@ AWS Web Application Firewall (
 від поширених експлойтів, а також 
 детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 нелегітимних запитів.
 
-{{< figure src="/blog-images/post-2-image-1.png" alt="Візуалізація запитів WAF" title="Зображення 1. Візуалізація запитів WAF">}}
+{{< img src="/blog-images/post-2-image-1.png" alt="Візуалізація запитів WAF" title="Зображення 1. Візуалізація запитів WAF">}}
 
 Використання CPU значно покращилося.
 
-{{< figure src="/blog-images/post-2-image-2.png" alt="Візуалізація завантаження CPU інстанції EC2" title="Зображення 2. Візуалізація завантаження CPU інстанції EC2">}}
+{{< img src="/blog-images/post-2-image-2.png" alt="Візуалізація завантаження CPU інстанції EC2" title="Зображення 2. Візуалізація завантаження CPU інстанції EC2">}}
 
 Однак ми виявили, що були короткі проміжки часу, коли правила WAF не були ефективними, а завантаження CPU залишалося 
 високим (Зображення 2). Загалом AWS
@@ -72,7 +72,7 @@ AWS Web Application Firewall (
 (потрібно ввімкнути явно) та візуалізацію всіх показників на одному дашборді цілком безкоштовно,
 {{< color-link link_title="як базову опцію" path="https://www.pcmag.com/opinions/inside-project-shield-jigsaws-anti-ddos-machine" target="_blank" >}}.
 
-{{< figure src="/blog-images/post-2-image-3.png" alt="Динаміка витрат uhelpukraine.org" title="Зображення З. Динаміка витрат uhelpukraine.org">}}
+{{< img src="/blog-images/post-2-image-3.png" alt="Динаміка витрат uhelpukraine.org" title="Зображення З. Динаміка витрат uhelpukraine.org">}}
 
 У підсумку, ми скоротили витрати на стороні AWS. Тепер команда
 {{< color-link link_title="UHelpUkraine" path="https://uhelpukraine.org/" target="_blank" >}}
