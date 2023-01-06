@@ -1,6 +1,6 @@
 ---
 title: Недостатньо місця для зберігання даних
-section_image: '/content-images/case-studies-image-3.jpg'
+section_image: '/content-images/case-studies-image-3.webp'
 alt: "Lots papers folders"
 image_title: ""
 img_render_class: img-height-cover

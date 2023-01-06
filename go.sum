@@ -4,3 +4,7 @@ gitlab.com/rs-site/rs-theme v0.0.0-20221129171134-4e98a5846906 h1:xGHJOXoRa+BF9L
 gitlab.com/rs-site/rs-theme v0.0.0-20221129171134-4e98a5846906/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
 gitlab.com/rs-site/rs-theme v0.0.0-20221227112933-29c6fd5aa034 h1:rKMlbiYNf4MqsfSCenH2aRCvJ6apd1ZePJ6GZnI6Zlk=
 gitlab.com/rs-site/rs-theme v0.0.0-20221227112933-29c6fd5aa034/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
+gitlab.com/rs-site/rs-theme v0.0.0-20221230122418-20e19a6b72d5 h1:3y1PCgGM3DZdGWhMu0LfJrwdyA1Mcu8V33/4OGHdub0=
+gitlab.com/rs-site/rs-theme v0.0.0-20221230122418-20e19a6b72d5/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
+gitlab.com/rs-site/rs-theme v0.0.0-20230105140804-939f21c8496b h1:SbAbuXUI3CiqP9iVd2ITHFPwLA8rjCYyRNOu3x7ouAE=
+gitlab.com/rs-site/rs-theme v0.0.0-20230105140804-939f21c8496b/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=

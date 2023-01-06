@@ -1,8 +1,8 @@
 baseURL = 'http://rework-space.com'
 languageCode = 'en-us'
 title = 'Rework-Space'
-#theme = ["rs-theme"]
-theme = ["gitlab.com/rs-site/rs-theme"]
+theme = ["rs-theme"]
+#theme = ["gitlab.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
@@ -22,6 +22,7 @@ enableRobotsTXT = true
     customFooterLine2 = '46027, Ternopil, Ukraine'
     customFooterLine3 = '+38 067 324 6141'
     read_more_button = 'Read more ->'
+    date_prefix = 'Published #'
 [languages.ua]
     title = "Rework-Space"
     weight = 2
@@ -34,6 +35,7 @@ enableRobotsTXT = true
     customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
     customFooterLine3 = '+38 068 699 3913'
     read_more_button = 'Детальніше ->'
+    date_prefix = 'Опубліковано #'
 
 [sitemap]
   changefreq = "monthly"
