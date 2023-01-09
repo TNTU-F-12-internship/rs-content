@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 label: "Ваше ім'я та прізвище"
 type: input
 input_type: text

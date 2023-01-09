@@ -1,5 +1,5 @@
 ---
-weight: 6
+weight: 7
 label: "Оберіть послугу яка Вас цікавить"
 type: select
 rows: 5

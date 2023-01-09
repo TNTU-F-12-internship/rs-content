@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 label: "Company name"
 type: input
 input_type: text

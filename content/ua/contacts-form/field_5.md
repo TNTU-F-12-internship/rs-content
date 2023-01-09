@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 6
 label: "Номер телефону"
 type: input
 input_type: text

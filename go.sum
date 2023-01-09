@@ -8,3 +8,5 @@ gitlab.com/rs-site/rs-theme v0.0.0-20221230122418-20e19a6b72d5 h1:3y1PCgGM3DZdGW
 gitlab.com/rs-site/rs-theme v0.0.0-20221230122418-20e19a6b72d5/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
 gitlab.com/rs-site/rs-theme v0.0.0-20230105140804-939f21c8496b h1:SbAbuXUI3CiqP9iVd2ITHFPwLA8rjCYyRNOu3x7ouAE=
 gitlab.com/rs-site/rs-theme v0.0.0-20230105140804-939f21c8496b/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
+gitlab.com/rs-site/rs-theme v0.1.0 h1:dx61Xl//FOLdLAQlibJbcJtQXh/5GM763d+0Wvlmdzs=
+gitlab.com/rs-site/rs-theme v0.1.0/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=

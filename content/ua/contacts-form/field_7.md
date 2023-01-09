@@ -1,5 +1,5 @@
 ---
-weight: 7
+weight: 8
 label: "Залиште запитання або коментарі"
 type: textarea
 rows: 5

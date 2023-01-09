@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 label: "Назва вашої компанії"
 type: input
 input_type: text

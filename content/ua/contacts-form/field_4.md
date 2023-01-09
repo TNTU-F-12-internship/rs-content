@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 label: "Ваша посада"
 type: input
 input_type: text

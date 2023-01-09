@@ -1,5 +1,5 @@
 ---
-weight: 6
+weight: 7
 label: "Choose the service you are interested in"
 type: select
 rows: 5

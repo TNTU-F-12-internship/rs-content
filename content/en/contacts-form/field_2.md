@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 3
 label: "Name and Last name"
 type: input
 input_type: text

@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 label: "Your position"
 type: input
 input_type: text
