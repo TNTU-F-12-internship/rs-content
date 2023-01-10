@@ -1,5 +1,4 @@
 baseURL = 'http://rework-space.com'
-languageCode = 'en-us'
 title = 'Rework-Space'
 #theme = ["rs-theme"]
 theme = ["gitlab.com/rs-site/rs-theme"]
@@ -11,6 +10,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
+    languageCode = 'en'
     title = "Rework-Space"
     weight = 1
     contentDir = "content/en"
@@ -23,7 +23,8 @@ enableRobotsTXT = true
     customFooterLine3 = '+38 067 324 6141'
     read_more_button = 'Read more ->'
     date_prefix = 'Published #'
-[languages.ua]
+  [languages.ua]
+    languageCode = 'uk'
     title = "Rework-Space"
     weight = 2
     contentDir = "content/ua"
