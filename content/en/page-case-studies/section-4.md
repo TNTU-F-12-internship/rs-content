@@ -4,6 +4,7 @@ section_image: '/content-images/case-studies-image-4.jpg'
 alt: "Smartphones sharing information with their applications"
 image_title: ""
 img_render_class: img-height-cover
+figure_render_class: img-height-cover
 weight: 4
 ---
 
@@ -12,7 +13,7 @@ situations when several employees work with one document. Several versions of th
 changes, which makes them unequal and complicates further work. Such situations require additional time to compile all
 copies into one current version.
 
-##### - solution
+{{< h5-in-content text="- solution" >}}
 
 Using cloud services to store files allows you to realize the benefits of sharing. Employees can access the required
 documents from any device and at any time. File editors are available in both the browser and mobile applications.

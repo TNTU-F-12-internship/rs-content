@@ -4,6 +4,7 @@ section_image: '/content-images/case-studies-image-3.webp'
 alt: "Lots papers folders"
 image_title: ""
 img_render_class: img-height-cover
+figure_render_class: img-height-cover
 weight: 3
 ---
 
@@ -12,7 +13,7 @@ via e-mail or flash drives. By sending dozens of e-mails a day with attachments,
 store them. Such an inefficient data exchange system leads to duplication of files and rapid accumulation of such copies
 on different devices.
 
-##### - solution
+{{< h5-in-content text="- solution" >}}
 
 Storing files in an unlimited space in the cloud solves space problems on employees' computers. Using cloud services,
 employees can quickly and easily share a single copy of documents with each other and use unlimited space to store them.

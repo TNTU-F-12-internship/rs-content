@@ -4,6 +4,7 @@ section_image: '/content-images/case-studies-image-4.jpg'
 alt: "Smartphones sharing information with their applications"
 image_title: ""
 img_render_class: img-height-cover
+figure_render_class: img-height-cover
 weight: 4
 ---
 
@@ -12,7 +13,7 @@ weight: 4
 змін, що робить їх нерівнозначними та ускладнює подальшу роботу. Подібні ситуації вимагають додаткових затрат часу на
 зведення всіх копій в одну актуальну версію.
 
-##### - рішення
+{{< h5-in-content text="- рішення" >}}
 
 Використання хмарних сервісів для зберігання файлів дозволяє реалізувати переваги спільного доступу. Працівники
 можуть отримувати доступ до необхідних документів із будь-якого пристрою та будь-який час. Редактори файлів доступні

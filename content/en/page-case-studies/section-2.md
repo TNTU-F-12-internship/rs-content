@@ -4,6 +4,7 @@ section_image: '/content-images/case-studies-image-2.jpg'
 alt: "Hacker cracking binary code, data security"
 image_title: ""
 img_render_class: img-height-cover
+figure_render_class: img-height-cover
 weight: 2
 ---
 
@@ -12,7 +13,7 @@ increase the reliability and security of e-mail, in particular through tracking 
 At the same time, companies often use different incompatible tools, which further complicates the process of setting
 up access.
 
-##### - solution
+{{< h5-in-content text="- solution" >}}
 
 Special administrator settings in the integrated desktop allow you to block access to files outside the organization.
 One administrator has complete control over the accounts and this saves a lot of time for the technical department.
