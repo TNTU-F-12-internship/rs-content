@@ -1,4 +1,4 @@
-baseURL = 'http://rework-space.com'
+baseURL = 'https://rework-space.com'
 title = 'Rework-Space'
 #theme = ["rs-theme"]
 theme = ["gitlab.com/rs-site/rs-theme"]
