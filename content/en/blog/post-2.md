@@ -2,7 +2,7 @@
 title: DDoS attack mitigation for Canadian Bayraktar crowdfunding initiative
 url: '/blog/DDoS-attack-mitigation-for-Canadian-Bayraktar-crowdfunding-initiative'
 omit_header_text: false
-featured_image: '/blog-images/post-2-banner.png'
+featured_image: '/blog-images/post-2-banner.webp'
 summary_image: '/blog-images/post-2-short.jpeg'
 alt: 'image from DDoS attack mitigation for Canadian Bayraktar crowdfunding initiative'
 img_render_class: img-width-contain
