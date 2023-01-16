@@ -6,6 +6,7 @@ omit_header_text: false
 featured_image: '/blog-images/post-1-banner.webp'
 summary_image: '/blog-images/post-1-short.jpg'
 sharing_image: '/blog-images/post-1-short.jpg'
+twitter_sharing_image: '/blog-images/post-1-twitter-share.jpg'
 alt: 'image from Terraform DNS провайдер для керування FreeIPA'
 keywords: ['terraform', 'freeipa', 'dns', 'provider', 'authentication', 'authorization']
 img_render_class: img-width-contain

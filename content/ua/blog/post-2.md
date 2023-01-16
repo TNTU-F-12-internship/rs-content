@@ -6,6 +6,7 @@ omit_header_text: false
 featured_image: '/blog-images/post-2-banner.webp'
 summary_image: '/blog-images/post-2-short.jpg'
 sharing_image: '/blog-images/post-2-short.jpg'
+twitter_sharing_image: '/blog-images/post-2-twitter-share.jpg'
 alt: 'ілюстрація з Стримування DDoS атак для краудфандингової ініціативи Canadian Bayraktar'
 keywords: ['DDoS', 'mitigation', 'google', 'jigsaw', 'hosting', 'crowdfunding']
 img_render_class: img-width-contain
