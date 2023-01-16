@@ -1,13 +1,15 @@
 ---
 title: Terraform provider for FreeIPA DNS management
 url: '/blog/2022-07-01-terraform-provider-for-freeipa-dns-management'
+type: article
 omit_header_text: false
 featured_image: '/blog-images/post-1-banner.webp'
 summary_image: '/blog-images/post-1-short.jpg'
+sharing_image: '/blog-images/post-1-short.jpg'
 alt: 'image from Terraform DNS провайдер для керування FreeIPA'
+keywords: ['terraform', 'freeipa', 'dns', 'provider', 'authentication', 'authorization']
 img_render_class: img-width-contain
 date: 2022-07-01
-
 ---
 
 {{< color-link link_title="Terraform provider" path="https://registry.terraform.io/providers/rework-space-com/freeipa/latest/docs" target="_blank" >}}
