@@ -1,7 +1,7 @@
 baseURL = 'https://rework-space.com'
 title = 'Rework-Space'
-theme = ["rs-theme"]
-#theme = ["gitlab.com/rs-site/rs-theme"]
+#theme = ["rs-theme"]
+theme = ["gitlab.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
