@@ -20,6 +20,8 @@ gitlab.com/rs-site/rs-theme v0.0.0-20230116163021-f5e0c938f4e7 h1:cRn1cBOVm1zAT/
 gitlab.com/rs-site/rs-theme v0.0.0-20230116163021-f5e0c938f4e7/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
 gitlab.com/rs-site/rs-theme v0.0.0-20230116165707-1c7118501b36 h1:q2R8G6alAI6X0EnuLJkuofdBu0BSYsZjws75aGI7NSY=
 gitlab.com/rs-site/rs-theme v0.0.0-20230116165707-1c7118501b36/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
+gitlab.com/rs-site/rs-theme v0.0.0-20230117173309-e9a782f7fb90 h1:jUZCF0zp0yd0v/BmToKKiwdmiglzGITYuowK2FhcP9s=
+gitlab.com/rs-site/rs-theme v0.0.0-20230117173309-e9a782f7fb90/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
 gitlab.com/rs-site/rs-theme v0.1.0 h1:dx61Xl//FOLdLAQlibJbcJtQXh/5GM763d+0Wvlmdzs=
 gitlab.com/rs-site/rs-theme v0.1.0 h1:dx61Xl//FOLdLAQlibJbcJtQXh/5GM763d+0Wvlmdzs=
 gitlab.com/rs-site/rs-theme v0.1.0/go.mod h1:pLYPDNjBwmcQTRwelnVsmQd8SpJslipc/LiMWLzuqz0=
