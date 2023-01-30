@@ -7,7 +7,7 @@ featured_image: '/static-blog-images/hand-holding-coffee-cup-with-may-photograph
 summary_image: '/blog-images/post-3/post-3-short-hand-holding-coffee-cup-with-may-photograph-table.jpg'
 sharing_image: ''
 twitter_sharing_image: ''
-alt: 'ілюстрація з Обробка зображень для сайту Hugo'
+alt: 'Picture for processing for Hugo framework'
 keywords: ['Hugo', 'shortcodes', 'processing', 'images', 'optimisation', 'srcset']
 date: 2023-01-30
 draft: true
@@ -22,12 +22,12 @@ website. But today we are going to talk about something else.
 
 While developing the company's website, we encountered a problem with image processing, because large images load 
 slowly, especially on mobile devices, which significantly reduces the accessibility of the page. It is impractical 
-to optimize each image manually, it requires additional efforts both at the time of development and during the further 
+to optimize each image manually, and it requires additional efforts both at the time of development and during the further 
 expansion of the blog.
 
 ## {{< color-text text="Parameters before optimization" >}}
 
-For example, let's take the home page of a website (Figure 1). Before optimization, the page size was 13.7 MB, and 
+For example, let's take the home page of a website (Figure 1). Before optimization, the page size was 13.7 MB and 
 the loading speed was 509 ms.
 
 {{< img src="/blog-images/post-3/screenshot-network-tab-before.png" alt="Figure 1. Network tab screenshot before optimization" css_class="img-scale-down">}}
@@ -105,7 +105,7 @@ Images should be placed in the assets folder, in the theme or content project st
 2. /assets/folder-name/image-name.extension
 
 Also, this code can be reused in the theme repository to optimize images, information about which is specified by 
-parameters in md files. To do this, you need to copy the html to the folder partials 
+parameters in markdown files. To do this, you need to copy the html to the folder partials 
 /themes/theme-name/layouts/partials/file-name.html and replace the first three lines of code with:
 
 ```
@@ -126,7 +126,7 @@ The html file is in the theme project, and the image is in the content project:
 /rs-content/assets/content-images/ict-security-short.jpg
 ```
 
-Usage in md file with content:
+Usage in markdown file with content:
 ```
 {{</* img-demo src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" */>}}
 ```
@@ -143,7 +143,7 @@ Usage in the html file of the theme:
 {{ partial "image-srcset.html" . }}
 ```
 
-Information about the image is specified by parameters in the md file with the content:
+Information about the image is specified by parameters in the markdown file with the content:
 ```
 ---
 src: "/content-images/ict-security-short.jpg"
@@ -173,7 +173,7 @@ the performance of the page. Figure 5 shows the results of the
 
 ## {{< color-text text="Summary" >}}
 
-Automation image processing allows to ensure a great user experience without big efforts. It is more important than ever 
-for web developers to implement these technologies.
+Automation image processing allows for ensuring a great user experience without big efforts. It is more important than ever 
+for web developers to implement such optimization.
 
-We hope this article has been useful for you.
+We hope the article content has been useful to you.
