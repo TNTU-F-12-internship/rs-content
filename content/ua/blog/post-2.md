@@ -3,13 +3,12 @@ title: Стримування DDoS атак для краудфандингов�
 url: '/ua/blog/DDoS-attack-mitigation-for-Canadian-Bayraktar-crowdfunding-initiative'
 type: article
 omit_header_text: false
-featured_image: '/blog-images/post-2-banner.webp'
-summary_image: '/blog-images/post-2-short.jpg'
-sharing_image: '/blog-images/post-2-short.jpg'
-twitter_sharing_image: '/blog-images/post-2-twitter-share.jpg'
+featured_image: '/static-blog-images/post-2-banner.webp'
+summary_image: '/blog-images/post-2/post-2-short.jpg'
+sharing_image: '/blog-images/post-2/post-2-short.jpg'
+twitter_sharing_image: '/blog-images/post-2/post-2-twitter-share.jpg'
 alt: 'ілюстрація з Стримування DDoS атак для краудфандингової ініціативи Canadian Bayraktar'
 keywords: ['DDoS', 'mitigation', 'google', 'jigsaw', 'hosting', 'crowdfunding']
-img_render_class: img-width-contain
 date: 2022-08-01
 ---
 
@@ -45,11 +44,11 @@ AWS Web Application Firewall (
 від поширених експлойтів, а також 
 детально дослідили трафік. Менш ніж за 2 дні було заблоковано 140 000 000 нелегітимних запитів.
 
-{{< img src="/blog-images/post-2-image-1.png" alt="Зображення 1. Візуалізація запитів WAF">}}
+{{< img src="/blog-images/post-2/post-2-image-1.png" alt="Зображення 1. Візуалізація запитів WAF" >}}
 
 Використання CPU значно покращилося.
 
-{{< img src="/blog-images/post-2-image-2.png" alt="Зображення 2. Візуалізація завантаження CPU інстанції EC2">}}
+{{< img src="/blog-images/post-2/post-2-image-2.png" alt="Зображення 2. Візуалізація завантаження CPU інстанції EC2">}}
 
 Однак ми виявили, що були короткі проміжки часу, коли правила WAF не були ефективними, а завантаження CPU залишалося 
 високим (Зображення 2). Загалом AWS
@@ -76,7 +75,7 @@ AWS Web Application Firewall (
 (потрібно ввімкнути явно) та візуалізацію всіх показників на одному дашборді цілком безкоштовно,
 {{< color-link link_title="як базову опцію" path="https://www.pcmag.com/opinions/inside-project-shield-jigsaws-anti-ddos-machine" target="_blank" >}}.
 
-{{< img src="/blog-images/post-2-image-3.png" alt="Зображення З. Динаміка витрат uhelpukraine.org">}}
+{{< img src="/blog-images/post-2/post-2-image-3.png" alt="Зображення З. Динаміка витрат uhelpukraine.org">}}
 
 У підсумку, ми скоротили витрати на стороні AWS. Тепер команда
 {{< color-link link_title="UHelpUkraine" path="https://uhelpukraine.org/" target="_blank" >}}
