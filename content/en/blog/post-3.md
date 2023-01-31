@@ -3,14 +3,13 @@ title: Image processing for Hugo framework
 url: '/blog/2023-01-30-image-processing-for-hugo-framework'
 type: article
 omit_header_text: false
-featured_image: '/static-blog-images/hand-holding-coffee-cup-with-may-photograph-table22.jpg'
-summary_image: '/blog-images/post-3/post-3-short-hand-holding-coffee-cup-with-may-photograph-table.jpg'
-sharing_image: ''
-twitter_sharing_image: ''
-alt: 'Picture for processing for Hugo framework'
+featured_image: '/static-blog-images/post-3-banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
+summary_image: '/blog-images/post-3/post-3-short.jpg'
+sharing_image: '/blog-images/post-3/post-3-short.jpg'
+twitter_sharing_image: '/blog-images/post-3/post-3-twitter-share.jpg'
+alt: 'Picture for Image processing for Hugo framework'
 keywords: ['Hugo', 'shortcodes', 'processing', 'images', 'optimisation', 'srcset']
 date: 2023-01-30
-draft: true
 ---
 
 ## {{< color-text text="Introduction" >}}
@@ -173,7 +172,7 @@ the performance of the page. Figure 5 shows the results of the
 
 ## {{< color-text text="Summary" >}}
 
-Automation image processing allows for ensuring a great user experience without big efforts. It is more important than ever 
+Automation image processing allows to provide a great user experience without big efforts. It is more important than ever 
 for web developers to implement such optimization.
 
-We hope the article content has been useful to you.
+We hope the article content has been useful for you.

@@ -3,10 +3,10 @@ title: Оптимізація зображень у фреймворку Hugo
 url: '/ua/blog/2023-01-30-image-processing-for-hugo-framework'
 type: article
 omit_header_text: false
-featured_image: '/static-blog-images/hand-holding-coffee-cup-with-may-photograph-table22.jpg'
-summary_image: '/blog-images/post-3/post-3-short-hand-holding-coffee-cup-with-may-photograph-table.jpg'
-sharing_image: ''
-twitter_sharing_image: ''
+featured_image: '/static-blog-images/post-3-banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
+summary_image: '/blog-images/post-3/post-3-short.jpg'
+sharing_image: '/blog-images/post-3/post-3-short.jpg'
+twitter_sharing_image: '/blog-images/post-3/post-3-twitter-share.jpg'
 alt: 'ілюстрація з Обробка зображень для сайту Hugo'
 keywords: ['Hugo', 'shortcodes', 'processing', 'images', 'optimisation', 'srcset']
 date: 2023-01-30
@@ -104,7 +104,7 @@ date: 2023-01-30
 2. /assets/folder-name/image-name.extension
 
 Також цей код можна використати повторно у репозиторії теми для оптимізації зображень, інформація про які вказана 
-параметрами в md файлах. Для цього необхідно скопіювати html в фолдер partials 
+параметрами в markdown файлах. Для цього необхідно скопіювати html в фолдер partials 
 /themes/theme-name/layouts/partials/file-name.html та замінити перші три рядки коду на:
 
 ```
@@ -124,7 +124,7 @@ date: 2023-01-30
 /rs-theme/layouts/shortcodes/img-demo.html
 /rs-content/assets/content-images/ict-security-short.jpg
 ```
-Використання у md файлі з контентом:
+Використання у markdown файлі з контентом:
 ```
 {{</* img-demo src="/content-images/ict-security-short.jpg" alt="Businessman logging his tablet" */>}}
 ```
@@ -141,7 +141,7 @@ date: 2023-01-30
 {{ partial "image-srcset.html" . }}
 ```
 
-Інформація про зображення вказується параметрами в md файлі з контентом:
+Інформація про зображення вказується параметрами в markdown файлі з контентом:
 ```
 ---
 src: "/content-images/ict-security-short.jpg"
