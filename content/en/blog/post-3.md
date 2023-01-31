@@ -3,10 +3,10 @@ title: Image processing for Hugo framework
 url: '/blog/2023-01-30-image-processing-for-hugo-framework'
 type: article
 omit_header_text: false
-featured_image: '/static-blog-images/post-3-banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
+featured_image: '/static-blog-images/post-3/banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
 summary_image: '/blog-images/post-3/post-3-short.jpg'
-sharing_image: '/static-blog-images/post-3-share-2.png'
-twitter_sharing_image: '/static-blog-images/post-3-twitter-share.jpg'
+sharing_image: '/static-blog-images/post-3-share.jpg'
+twitter_sharing_image: '/static-blog-images/post-3/post-3-twitter-share.jpg'
 alt: 'Picture for Image processing for Hugo framework'
 keywords: ['Hugo', 'shortcodes', 'processing', 'images', 'optimisation', 'srcset']
 date: 2023-01-30

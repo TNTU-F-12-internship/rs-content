@@ -3,10 +3,10 @@ title: Стримування DDoS атак для краудфандингов�
 url: '/ua/blog/DDoS-attack-mitigation-for-Canadian-Bayraktar-crowdfunding-initiative'
 type: article
 omit_header_text: false
-featured_image: '/static-blog-images/post-2-banner.webp'
+featured_image: '/static-blog-images/post-2/post-2-banner.webp'
 summary_image: '/blog-images/post-2/post-2-short.jpg'
 sharing_image: '/blog-images/post-2/post-2-short.jpg'
-twitter_sharing_image: '/blog-images/post-2/post-2-twitter-share.jpg'
+twitter_sharing_image: '/static-blog-images/post-2/post-2-twitter-share.jpg'
 alt: 'ілюстрація з Стримування DDoS атак для краудфандингової ініціативи Canadian Bayraktar'
 keywords: ['DDoS', 'mitigation', 'google', 'jigsaw', 'hosting', 'crowdfunding']
 date: 2022-08-01

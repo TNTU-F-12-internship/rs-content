@@ -3,10 +3,10 @@ title: Оптимізація зображень у фреймворку Hugo
 url: '/ua/blog/2023-01-30-image-processing-for-hugo-framework'
 type: article
 omit_header_text: false
-featured_image: '/static-blog-images/post-3-banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
+featured_image: '/static-blog-images/post-3/banner-hand-holding-coffee-cup-with-may-photograph-table.jpg'
 summary_image: '/blog-images/post-3/post-3-short.jpg'
-sharing_image: '/static-blog-images/post-3-share-2.png'
-twitter_sharing_image: '/static-blog-images/post-3-twitter-share.jpg'
+sharing_image: '/static-blog-images/post-3-share.jpg'
+twitter_sharing_image: '/static-blog-images/post-3/post-3-twitter-share.jpg'
 alt: 'ілюстрація з Обробка зображень для сайту Hugo'
 keywords: ['Hugo', 'shortcodes', 'processing', 'images', 'optimisation', 'srcset']
 date: 2023-01-30
