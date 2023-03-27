@@ -1,6 +1,8 @@
 # rs-content
 
-## Links
+[GitLab Stage Deploy](https://stage-gitlab.rework-space.com)
+
+## Useful links
 
 - [Hugo documentation](https://gohugo.io/documentation)
 - Base theme - [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke)
@@ -13,17 +15,20 @@
 - Blogpost - [Multilingual](https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/)
 - [Go text template](https://pkg.go.dev/text/template)
 - Article [Add Contact form to Hugo with Google forms](https://blog.puvvadi.me/posts/add-contact-form-hugo-google-forms/)
+- [Add-ons for Hugo](https://hugocodex.org/add-ons/) - Extend Hugo’s functionality
 
 ## Contributing to the blog
 
-### Local deploy 
+### Deploy
 
-use command 
-`docker-compose up` (the site will be available at http://localhost:1313/)
+Website is deploying automatically by CI from `main` branch.
+
+For local deploy use command 
+`docker-compose up` (the site will be available at http://localhost:1313).
 
 ### Add new post
 
-1. Add new `.md` files (one for each language) by the paths (with the next post number):
+1. Add new `.md` files the appropriate paths, one for each language (with the next post number):
 ```
 content/en/blog/post-1.md
 content/ua/blog/post-1.md
@@ -63,16 +68,32 @@ folder or specify a separate image and place it in `/static/` folder.
 - `date` - post published date, it is using to sort posts on Blog page.
 - `draft` - if "true" post won't be published (and won't be visible even on local deploy).
 
+### Multilingual
+
+Each markdown file that represent separate site page must have appropriation in each site language, otherwise language 
+button won't be presented in Menu. If some page isn't translated to other language, please for empty markdown files use 
+below text as page content.
+
+For English
+```
+Unfortunately, the page is not translated into this language.
+```
+
+For Ukrainian
+```
+На жаль, сторінка не перекладена на цю мову.
+```
+
 ### Images
 
-1. Location
+#### 1. Location
 
 Images could be stored in two places: `/static/` or `/assets/` folders. 
 - use `/assets/` folder for images which will be presented in page `main` section (images will be rendered by build);
 - use `/static/` folder for background images specified in CSS code `{ background: url(""); }` (banner and header images)
 and for images which will be used for sharing but not presented on the site anywhere (such images won't be rendered by build);
 
-2. Add image to a blog post
+#### 2. Add image to a blog post
 
 To add an image between two text paragraphs inside markdown file use shortcode `img`:
 ```

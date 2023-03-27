@@ -1,0 +1,8 @@
+items:
+  - title: Google Analytics
+    description: This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on.
+    details_link: /about/privacy/#cookies
+    details_link_name: Privacy statement
+    is_checked: true
+    is_functional: false
+    script_file: ga.js
