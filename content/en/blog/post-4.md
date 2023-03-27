@@ -13,16 +13,10 @@ date: 2023-03-24
 draft: true
 ---
 
-## Normal section title
-
-Normal text 
-
-[Normal link](http://rework-space.com/)
-
 ## {{< color-text text="Section title in base site color" >}}
 
-{{< color-link link_title="Colorful link" path="https://gohugo.io/" >}}
+Normal text
 
-## {{< color-text text="Section title in specific color" color="#FF0000">}}
+{{< color-link link_title="Colorful link" path="https://gohugo.io/" target="_blank" >}}
 
-{{< color-link link_title="Link will be opened in new tab" path="https://gohugo.io/" target="_blank" >}}
+How to add image - look in README.

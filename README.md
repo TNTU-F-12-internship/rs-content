@@ -19,11 +19,11 @@
 ### Local deploy 
 
 use command 
-`docker-compose up` (site will be available at  http://localhost:1313/)
+`docker-compose up` (the site will be available at http://localhost:1313/)
 
 ### Add new post
 
-1. Add new `.md` files by the paths (with the next post number):
+1. Add new `.md` files (one for each language) by the paths (with the next post number):
 ```
 content/en/blog/post-1.md
 content/ua/blog/post-1.md
@@ -46,15 +46,66 @@ date: 2023-03-24
 draft: true
 ---
 ```
-- `title` - Post title on banner image.
-- `url` - url address for new post must contain post date and post title. For ukraine language use /ua/ and the same post title in english (`'/ua/blog/2023-03-24-post-title'`).
+- `title` - post title on banner image.
+- `url` - url address for new post must contain post date and post title. For ukraine language use prefix `/ua/` and 
+the same url as for English (`'/ua/blog/2023-03-24-post-title'`).
 - `type` - must be "article" for blog post.
-- `omit_header_text` - there could be two header types, "false" for big header and "true" for small.
-- `featured_image` - background banner image, must be in /static/ folder. If not specified will be used default site image from home page.
-- `summary_image` - image for post list page, must be in /assets/ folder.
-- `sharing_image` - to share post in LinkedIn and Facebook, the image must be rectangular. You could use the same image as summary_image
-- `twitter_sharing_image` - to share post in Twitter, the image must be square.
+- `omit_header_text` - there could be two header types, use "false" for big header and "true" for small.
+- `featured_image` - background banner image, must be in `/static/` folder. If parameter isn't present will be used 
+default site image from home page.
+- `summary_image` - image for post list (Blog page), must be in `/assets/` folder.
+- `sharing_image` - to share post in LinkedIn and Facebook, the image must be rectangular. You could use the same image 
+as summary_image from `/assets/` folder or specify a separate image and place it in `/static/` folder.
+- `twitter_sharing_image` - to share post in Twitter, the image must be square. You can reuse an image from `/assets/` 
+folder or specify a separate image and place it in `/static/` folder.
 - `alt` - for banner image.
 - `keywords` - for SEO improvements. It will be added to head metadata.
 - `date` - post published date, it is using to sort posts on Blog page.
-- `draft` - if 'true' post won't be published (and won't be visible even on local deploy).
+- `draft` - if "true" post won't be published (and won't be visible even on local deploy).
+
+### Images
+
+1. Location
+
+Images could be stored in two places: `/static/` or `/assets/` folders. 
+- use `/assets/` folder for images which will be presented in page `main` section (images will be rendered by build);
+- use `/static/` folder for background images specified in CSS code `{ background: url(""); }` (banner and header images)
+and for images which will be used for sharing but not presented on the site anywhere (such images won't be rendered by build);
+
+2. Add image to a blog post
+
+To add an image between two text paragraphs inside markdown file use shortcode `img`:
+```
+{{< img src="/blog-images/post-1/image-name.png" alt="Figure 1. Image alt" css_class="img-scale-down">}}
+```
+Image must be in `/assets/` folder, `alt` will be used as figcaption.
+
+`css_class` - not required; possible options: 
+```
+.img-width-contain {
+  object-fit: contain;
+  width: 100%;
+}
+
+.img-height-cover {
+  object-fit: cover;
+  height: 100%;
+}
+
+.img-scale-down {
+  object-fit: scale-down;
+}
+```
+
+### Shortcodes
+
+To add text in specific color. Without parameter `color=""` will be used base site color.
+```
+{{< color-text text="Section title in specific color" color="#FF0000">}}
+```
+
+To add link in base site color. It `target="_blank"` link will open in new tab. Without parameter `target=""` link will 
+open in the same tab (`_self`)
+```
+{{< color-link link_title="Link will be opened in new tab" path="https://gohugo.io/" target="_blank" >}}
+```
