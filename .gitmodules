@@ -1,0 +1,3 @@
+[submodule "themes/rs-theme"]
+	path = themes/rs-theme
+	url = git@gitlab.com:rework-space.com/rs-site/rs-theme.git
