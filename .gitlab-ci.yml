@@ -6,7 +6,7 @@ variables:
 pages:
   script:
     - apk add --update --no-cache git go
-    - hugo mod get gitlab.com/rs-site/rs-theme
+    - hugo mod get gitlab.com/rework-space.com/rs-site/rs-theme
     - hugo
   artifacts:
     paths:
