@@ -8,7 +8,8 @@ summary_image: '/blog-images/post-5/post-5-short.jpg'
 sharing_image: '/static-blog-images/post-5/post-5-cassini-hackathon-share.jpg'
 twitter_sharing_image: '/static-blog-images/post-5/post-5-cassini-hackathon-twitter-share.jpg'
 alt: 'Picture for Cassini Hackathon Participation'
-keywords: ['', '', '']
+keywords: ['6th CASSINI Hackathon', 'International Development', 'Humanitarian Aid', 'Cooperative education',
+           'Ternopil Ivan Puluj National Technical University', 'Sustainable infrastructure development']
 date: 2023-11-14
 draft: false
 ---
@@ -26,7 +27,7 @@ We are pleased to mark the milestone - this year, for the first time Ukrainian p
 of the teams was led by Roman Gashynskyi, 4th year student of Ternopil Ivan Puluj National Technical University, who 
 currently does his bachelor studies  in computer sciences at TNTU and Rework-Space within the cooperative education 
 programme. Among his teammates were Ivan Osiichuk, also a cooperative education fellow doing his master studies at 
-TNTU and Rework-Space; 4th year student of Ivan Franko National University of Lviv Yaroslav Mashtaliar; TNTU student 
+TNTU and Rework-Space; Yaroslav Mashtaliar, 4th year student of Ivan Franko National University of Lviv; TNTU student 
 Nazarii Melnyk as well as TNTU alumnus Aser Kashosi. The StellOracle project was also supported by TNTU researchers 
 Vitaly Brevus and Yuriy Skorenkyy.
 
@@ -37,6 +38,6 @@ natural disasters or conflicts, to address the challenge of Supporting sustainab
 
 {{< img src="/blog-images/post-5/StellOracle_prototype.png" alt="Figure 1. Prototype solution" >}}
 
-Congratulations on the completion of the interesting project on the vibrant topic!
+Congratulations on the completion of the interesting project on a vibrant topic!
 
 {{< color-text text="#cassiniEU" >}}
