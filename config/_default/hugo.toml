@@ -1,12 +1,12 @@
-baseURL = 'https://rework-space.com'
-title = 'Rework-Space'
+baseURL = 'https://localhost'
+title = 'Rework-Space local'
 timeout = 300000
-#theme = ["rs-theme"]
-theme = ["gitlab.com/rs-site/rs-theme"]
+theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
-googleAnalytics = "G-YCZWM6D5L1"
+googleAnalytics = "G-xxxxx"
+google_tag_manager = "GTM-xxxxx"
 enableRobotsTXT = true
 
 [languages]
@@ -15,29 +15,31 @@ enableRobotsTXT = true
     title = "Rework-Space"
     weight = 1
     contentDir = "content/en"
-    footerContactButton = "Contact us"
-    footerContactButtonPath = '/about/contacts/'
-    footerPrivacy = 'Privacy'
-    footerPrivacyUrl = '/about/privacy'
-    customFooterLine1 = "10 Berezhans'ka St, office 82"
-    customFooterLine2 = '46027, Ternopil, Ukraine'
-    customFooterLine3 = '+38 067 324 6141'
-    read_more_button = 'Read more ->'
-    date_prefix = 'Published #'
+    [languages.en.params]
+      footerContactButton = "Contact us"
+      footerContactButtonPath = '/about/contacts/'
+      footerPrivacy = 'Privacy'
+      footerPrivacyUrl = '/about/privacy'
+      customFooterLine1 = "10 Berezhans'ka St, office 82"
+      customFooterLine2 = '46027, Ternopil, Ukraine'
+      customFooterLine3 = '+38 067 324 6141'
+      read_more_button = 'Read more ->'
+      date_prefix = 'Published #'
   [languages.ua]
     languageCode = 'uk'
     title = "Rework-Space"
     weight = 2
     contentDir = "content/ua"
-    footerContactButton = "Зв'яжіться з нами"
-    footerContactButtonPath = '/ua/about/contacts/'
-    footerPrivacy = 'Конфіденційність'
-    footerPrivacyUrl = '/about/privacy'
-    customFooterLine1 = 'вул. Бережанська 10, офіс 82'
-    customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
-    customFooterLine3 = '+38 068 699 3913'
-    read_more_button = 'Детальніше ->'
-    date_prefix = 'Опубліковано #'
+    [languages.ua.params]
+      footerContactButton = "Зв'яжіться з нами"
+      footerContactButtonPath = '/ua/about/contacts/'
+      footerPrivacy = 'Конфіденційність'
+      footerPrivacyUrl = '/about/privacy'
+      customFooterLine1 = 'вул. Бережанська 10, офіс 82'
+      customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
+      customFooterLine3 = '+38 068 699 3913'
+      read_more_button = 'Детальніше ->'
+      date_prefix = 'Опубліковано #'
 
 [sitemap]
   changefreq = "monthly"
@@ -45,6 +47,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  google_tag_manager = 'GTM-devel'
   text_color = ""
   middle_title_color_code = "#008080"
   link_color = "#008080"
