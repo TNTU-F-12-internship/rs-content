@@ -2,9 +2,7 @@ baseURL = 'https://rework-space.com'
 title = 'Rework-Space'
 theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
 
-googleAnalytics = "G-YCZWM6D5L1"
-google_tag_manager = "GTM-MBW5BLK"
 enableRobotsTXT = true
 
 [params]
-  google_tag_manager = 'GTM-prod'
+  gtm = "GTM-MBW5BLK"
