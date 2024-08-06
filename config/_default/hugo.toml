@@ -36,7 +36,7 @@ enableRobotsTXT = true
       consent_allow_all = 'Allow all'
       consent_save_preferences = 'Save preferences'
   [languages.ua]
-    languageCode = 'uk'
+    languageCode = 'ua'
     title = "Rework-Space"
     weight = 2
     contentDir = "content/ua"
