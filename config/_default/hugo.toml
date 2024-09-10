@@ -7,6 +7,11 @@ DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
 enableRobotsTXT = true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  blog = "blogs"
+
 [languages]
   [languages.en]
     languageCode = 'en'
@@ -22,6 +27,7 @@ enableRobotsTXT = true
       customFooterLine2 = '46027, Ternopil, Ukraine'
       customFooterLine3 = '+38 067 324 6141'
       read_more_button = 'Read more ->'
+      tags = 'Tags'
       date_prefix = 'Published #'
       consent_manage = 'Manage preferences'
       consent_deny = 'Deny'
@@ -49,6 +55,7 @@ enableRobotsTXT = true
       customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
       customFooterLine3 = '+38 068 699 3913'
       read_more_button = 'Детальніше ->'
+      tags = 'Теги'
       date_prefix = 'Опубліковано #'
       consent_manage = 'Керувати налаштуваннями'
       consent_deny = 'Відмовити'
