@@ -7,6 +7,11 @@ DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
 enableRobotsTXT = true
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  blog = "blogs"
+
 [languages]
   [languages.en]
     languageCode = 'en'
@@ -22,6 +27,7 @@ enableRobotsTXT = true
       customFooterLine2 = '46027, Ternopil, Ukraine'
       customFooterLine3 = '+38 067 324 6141'
       read_more_button = 'Read more ->'
+      tags = 'Tags'
       date_prefix = 'Published #'
       consent_manage = 'Manage preferences'
       consent_deny = 'Deny'
@@ -49,6 +55,7 @@ enableRobotsTXT = true
       customFooterLine2 = 'м.Тернопіль, 46027,  Україна'
       customFooterLine3 = '+38 068 699 3913'
       read_more_button = 'Детальніше ->'
+      tags = 'Теги'
       date_prefix = 'Опубліковано #'
       consent_manage = 'Керувати налаштуваннями'
       consent_deny = 'Відмовити'
@@ -80,7 +87,7 @@ enableRobotsTXT = true
   mobileMenuLight = true
   header_image_line = '/general-images/background_photo_line.webp'
   header_background_image = '/general-images/background_photo.webp'
-  default_sharing_image = '/general-images/rework_logo_1.92.png'
+  default_sharing_image = '/general-images/rework_logo_white_bg.png'
   description = "Modern solutions that become the basis for innovation and help businesses achieve bold goals. At Rework-Space, we take a holistic approach to providing professional services."
   background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   body_classes = "avenir bg-white" # font and body background color
@@ -99,3 +106,19 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/rework_space"
+label = "Twitter"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/company/rework-space/"
+label = "Linkedin"
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/com.rework.space/"
+label = "Facebook"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/rework-space-com"
+label = "GitHub"

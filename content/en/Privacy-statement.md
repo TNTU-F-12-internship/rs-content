@@ -2,6 +2,7 @@
 title: Privacy statement
 url: '/about/privacy'
 omit_header_text: true
+sharing_image: '/general-images/rework_logo_white_bg.png'
 type: page
 menu:
   main:

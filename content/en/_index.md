@@ -6,6 +6,7 @@ description: ""
 theme_version: '2.8.2'
 cascade:
   featured_image: '/general-images/background_photo.webp'
+  sharing_image: '/general-images/rework_logo_white_bg.png'
 menu:
   main:
     identifier: services
