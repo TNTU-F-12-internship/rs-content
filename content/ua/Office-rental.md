@@ -4,6 +4,7 @@ section_title_one: Ми керуємо офісом, щоб ви могли ке
 section_title_two: Rework-Space - одна плата покриває всі офісні витрати
 url: '/ua/services/rent'
 omit_header_text: false
+sharing_image: '/general-images/rework_logo_white_bg.png'
 description: ваше ідеальне рішення під ключ
 type: page
 menu:

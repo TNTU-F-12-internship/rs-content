@@ -2,6 +2,7 @@
 title: Політика в сфері конфіденційності та персональних даних
 url: '/ua/about/privacy'
 omit_header_text: true
+sharing_image: '/general-images/rework_logo_white_bg.png'
 type: page
 menu:
   main:

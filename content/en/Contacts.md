@@ -2,6 +2,7 @@
 title: Contacts
 url: '/about/contacts'
 omit_header_text: true
+sharing_image: '/general-images/rework_logo_white_bg.png'
 description: We'd love to hear from you
 type: page
 menu:

@@ -4,6 +4,7 @@ section_title_one: We manage the office, so you can manage your business
 section_title_two: Rework-Space - one fee covers all office expenses
 url: '/services/rent'
 omit_header_text: false
+sharing_image: '/general-images/rework_logo_white_bg.png'
 description: Your perfect turnkey solution
 type: page
 menu:
