@@ -19,12 +19,57 @@
 
 ## Contributing to the blog
 
-### Deploy
+## Repository structure
 
-Website is deploying automatically by CI from `main` branch.
+Directory tree:
+```
+rc-content/
+├── .github/
+│   └── workflows/
+│       └── hugo.yml
+├── archetypes/
+│   └── default.md
+├── assets/
+├── content/
+├── config/           <-- site configuration
+│   └── _default/
+│   │   └── hugo.toml
+│   └── production/
+│       └── hugo.toml
+├── data/
+├── static/
+├── .gitmodules
+├── go.mod
+├── docker-compose.yml
+└── README.md
+```
 
-For local deploy use command 
-`docker-compose up` (the site will be available at http://localhost:1313).
+### Deployment Instructions
+
+Website is deploying automatically by CI from `main` branch to 
+[GitLab Stage Deploy](https://stage-gitlab.rework-space.com).
+
+For final deployment, make sure to push changes (**ONLY** `content`, theme will be getting from GitLab) from the 
+GitLab repository to the GitHub repository at [rc-content](https://github.com/rework-space-com/rs-content). 
+The website will be automatically deployed from the main branch of the GitHub repository.
+
+### Local Development
+
+For local deploy use command `docker-compose up` (the site will be available at http://localhost:1313).
+
+Alternatively, after downloading Hugo, you can run `hugo server` (the site will be available at http://localhost:1313).
+
+### Theme Management
+
+If you want to make some changes in theme and to see the changes in real time, make sure to have theme in 
+next folder - `themes`. 
+
+To use a different theme, place it in the `themes` folder and update the `hugo.toml` configuration file to reflect 
+the new theme name.
+
+To change the version of the theme, modify the `go.mod` file. Locate the line starting with 
+`require gitlab.com/rework-space.com/rs-site/rs-theme` and update it to the desired tag or commit SHA, such as 
+`v0.0.0-20240806155827-02956aea1959`.
 
 ### Add new post
 
