@@ -106,3 +106,19 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/rework_space"
+label = "Twitter"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/company/rework-space/"
+label = "Linkedin"
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/com.rework.space/"
+label = "Facebook"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/rework-space-com"
+label = "GitHub"
