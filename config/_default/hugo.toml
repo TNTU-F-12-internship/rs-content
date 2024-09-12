@@ -28,6 +28,7 @@ enableRobotsTXT = true
       customFooterLine3 = '+38 067 324 6141'
       read_more_button = 'Read more ->'
       tags = 'Tags'
+      all_articles = 'All articles'
       date_prefix = 'Published #'
       consent_manage = 'Manage preferences'
       consent_deny = 'Deny'
@@ -56,6 +57,7 @@ enableRobotsTXT = true
       customFooterLine3 = '+38 068 699 3913'
       read_more_button = 'Детальніше ->'
       tags = 'Теги'
+      all_articles = 'Усі статті'
       date_prefix = 'Опубліковано #'
       consent_manage = 'Керувати налаштуваннями'
       consent_deny = 'Відмовити'
@@ -122,3 +124,8 @@ label = "Facebook"
 name = "github"
 url = "https://github.com/rework-space-com"
 label = "GitHub"
+
+[[params.ananke_socials]]
+name = "gitlab"
+url = "https://gitlab.com/rework-space.com/"
+label = "GitLab"
