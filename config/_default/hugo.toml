@@ -124,3 +124,8 @@ label = "Facebook"
 name = "github"
 url = "https://github.com/rework-space-com"
 label = "GitHub"
+
+[[params.ananke_socials]]
+name = "gitlab"
+url = "https://gitlab.com/rework-space.com/"
+label = "GitLab"
