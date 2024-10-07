@@ -1,7 +1,7 @@
 baseURL = 'https://localhost'
 title = 'Rework-Space local'
 timeout = 300000
-theme = ["rs-theme"]
+theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
