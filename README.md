@@ -17,6 +17,35 @@
 - Article [Add Contact form to Hugo with Google forms](https://blog.puvvadi.me/posts/add-contact-form-hugo-google-forms/)
 - [Add-ons for Hugo](https://hugocodex.org/add-ons/) - Extend Hugo’s functionality
 
+### How to Create a New Issue and Merge Request in GitLab
+
+1. **Navigate to the Issues Page**  
+   Start by going to the Issues page of your project. Click on the **"New Issue"** button.  
+   ![Create New Issue GitLab Step 1](.github%2Fimgs%2Fcreate_new_issue_gitlab_1.png)
+
+2. **Enter Issue Details**  
+   Fill out all the necessary details for your new issue. If the issue pertains to you, make sure to assign it to yourself. Once you’ve entered all the information, click on **"Create Issue."**  
+   ![Create New Issue GitLab Step 2](.github%2Fimgs%2Fcreate_new_issue_gitlab_2.png)
+
+3. **Create a Merge Request**  
+   On the next page, click on the **"Create Merge Request"** button.  
+   ![Create New Issue GitLab Step 3](.github%2Fimgs%2Fcreate_new_issue_gitlab_3.png)
+
+4. **Configure Merge Request Settings**  
+   On this page, you don’t need to change anything else. Ensure you check the following boxes:
+    - **Mark as draft**
+    - **Delete source branch when merge request is accepted** (you can also select this option later after creating the merge request)  
+      Then click on **"Create Merge Request."** You can now make any necessary changes.  
+      ![Create New Issue GitLab Step 4](.github%2Fimgs%2Fcreate_new_issue_gitlab_4.png)
+
+5. **Request Review and Mark as Ready**  
+   After committing your changes, request a review if needed. Once you're ready, click **"Mark as Ready."**  
+   ![Create New Issue GitLab Step 5](.github%2Fimgs%2Fcreate_new_issue_gitlab_5.png)
+
+6. **Finalizing the Merge Request**  
+   After marking it as ready, your merge request will be available for merging. Just remember to wait for a review before proceeding. And that’s it!  
+   ![Create New Issue GitLab Step 6](.github%2Fimgs%2Fcreate_new_issue_gitlab_6.png)
+
 ## Contributing to the blog
 
 ## Repository structure
