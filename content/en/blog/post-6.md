@@ -3,7 +3,7 @@ title: "QueryOptima: Revolutionizing Data Optimization and BI Integration"
 url: '/blog/2024-10-04-queryoptima-revolutionizing-data-optimization-and-bi-integration'
 type: article
 omit_header_text: false
-featured_image: '/general-images/background_photo.webp'
+featured_image: '/static-blog-images/post-6/hands-holding-up-colorful-letters-forming-word-data.webp'
 summary_image: '/blog-images/post-6/logo.png'
 sharing_image: '/static-blog-images/post-6/logo.png'
 twitter_sharing_image: '/static-blog-images/post-6/logo.png'
