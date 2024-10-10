@@ -17,29 +17,22 @@
 - Article [Add Contact form to Hugo with Google forms](https://blog.puvvadi.me/posts/add-contact-form-hugo-google-forms/)
 - [Add-ons for Hugo](https://hugocodex.org/add-ons/) - Extend Hugo’s functionality
 
-### How to Create a New Issue and Merge Request in GitLab
+### GitLab Workflow
 
-1. **Access the Issues Page**  
-   Navigate to the Issues section of project and click on **"New Issue"**.
+1. **Create a New Issue**  
+   Describe the problem or task, add relevant links, and suggest potential solutions. Use templates to standardize the process.
 
-2. **Input Issue Information**  
-   Fill out all the necessary details for your new issue. If applicable, utilize the available issue templates to standardize your submissions. If the issue is relevant to your work, assign it to yourself. Click **"Create Issue"** when you’re done.
+2. **Create a Merge Request**  
+   Once the issue is created, open a Merge Request. Make sure to:
+   - Mark it as **draft** if necessary.
+   - Enable **delete source branch after merging**.
+     GitLab will create new branch automatically.
 
-3. **Initiate a Merge Request**  
-   On the subsequent page, select **"Create Merge Request"**.
+3. **Work on the Merge Request**  
+   After making your changes, request a review. When ready, mark the Merge Request as **ready for merging**.
 
-4. **Set Merge Request Options**  
-   On this page, you don’t need to change anything else. Just check the following options:
-   - **Mark as draft**
-   - **Delete source branch when merge request is accepted** (this can also be selected later)
-
-   Afterward, click **"Create Merge Request"**. You can now proceed with any changes needed.
-
-5. **Request Review and Mark as Ready**  
-   After committing your changes, request a review if needed. Once you're ready, click **"Mark as Ready."**
-
-6. **Finalizing the Merge Request**  
-   After marking it as ready, your merge request will be available for merging. Just remember to wait for a review before proceeding. And that’s it!
+4. **Merge and Delete the Branch**  
+   Once the review is complete and approved, merge the changes and delete the branch.
 
 ## Contributing to the blog
 
