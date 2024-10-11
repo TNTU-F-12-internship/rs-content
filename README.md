@@ -109,14 +109,16 @@ sharing_image: '/folder/image-name-share.jpg'
 twitter_sharing_image: '/folder/image-name-twitter-share.jpg'
 alt: 'Picture for Post Title'
 keywords: ['some', 'keywords']
+blogs: ['some', 'tags']
 date: 2023-03-24
 draft: true
+not_translate: true
 ---
 ```
 - `title` - post title on banner image.
 - `url` - url address for new post must contain post date and post title. For ukraine language use prefix `/ua/` and 
 the same url as for English (`'/ua/blog/2023-03-24-post-title'`).
-- `type` - must be "article" for blog post.
+- `type` - shoud be "article" for blog post, but if your page is not translated use "page".
 - `omit_header_text` - there could be two header types, use "false" for big header and "true" for small.
 - `featured_image` - background banner image, must be in `/static/` folder. If parameter isn't present will be used 
 default site image from home page.
@@ -127,8 +129,10 @@ as summary_image from `/assets/` folder or specify a separate image and place it
 folder or specify a separate image and place it in `/static/` folder.
 - `alt` - for banner image.
 - `keywords` - for SEO improvements. It will be added to head metadata.
+- `blogs` - tags for filtering blogs on page.
 - `date` - post published date, it is using to sort posts on Blog page.
 - `draft` - if "true" post won't be published (and won't be visible even on local deploy).
+- `not_translate` - if "true" post won't be displayed on blog page.
 
 ### Multilingual
 
