@@ -2,6 +2,7 @@ baseURL = 'https://localhost'
 title = 'Rework-Space local'
 timeout = 300000
 theme = ["rs-theme"]
+#theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
@@ -18,6 +19,11 @@ enableRobotsTXT = true
     title = "Rework-Space"
     weight = 1
     contentDir = "content/en"
+    [languages.en.menus]
+    [[languages.en.menus.main]]
+      name = 'Careers'
+      url = 'https://opportunity.rework-space.com/jobs/Careers-at-Rework-Space'
+      weight = 5
     [languages.en.params]
       footerContactButton = "Contact us"
       footerContactButtonPath = '/about/contacts/'
@@ -48,6 +54,11 @@ enableRobotsTXT = true
     title = "Rework-Space"
     weight = 2
     contentDir = "content/ua"
+    [languages.ua.menus]
+    [[languages.ua.menus.main]]
+      name = "Кар'єра"
+      url = 'https://opportunity.rework-space.com/jobs/Careers-at-Rework-Space'
+      weight = 6
     [languages.ua.params]
       footerContactButton = "Зв'яжіться з нами"
       footerContactButtonPath = '/ua/about/contacts/'

@@ -12,6 +12,7 @@ menu:
 layout: img-left
 sections_folder: page-case-studies
 final_message: "Interested in the solution?"
+draft: true
 ---
 
 Companies that want to achieve business results faster and enter new markets are well aware of the need to use limited 

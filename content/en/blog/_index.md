@@ -8,7 +8,7 @@ menu:
   main:
     identifier: blog
     name: Blog
-    weight: 3
+    weight: 2
 ---
 
 Posts

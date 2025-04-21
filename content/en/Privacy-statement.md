@@ -130,7 +130,8 @@ When applying online for a role at Rework-Space via the Rework-Space careers web
 information made available when applying for a job for details about why and how personal data is collected and 
 processed.
 
-For more detail about our recruitment processes, please visit our [career page]({{< ref "/Careers" >}}).
+For more detail about our recruitment processes, please visit our 
+[career page](https://opportunity.rework-space.com/jobs/Careers-at-Rework-Space).
 
 ## Legal basis for processing
 

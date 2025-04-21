@@ -17,6 +17,7 @@ final_message: Try it now
 layout: img-left-plus-right
 sections_folder_left: page-office-rental-first
 sections_folder_right: page-office-rental-second
+draft: true
 ---
 
 The workspace is a powerful tool that helps stimulate collaboration, develop innovative ideas, and increase productivity. 

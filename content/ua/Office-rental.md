@@ -17,6 +17,7 @@ final_message: Спробуйте вже зараз
 layout: img-left-plus-right
 sections_folder_left: page-office-rental-first
 sections_folder_right: page-office-rental-second
+draft: true
 ---
 
 Робочий простір - це потужний інструмент, що допомагає стимулювати співпрацю, розвивати інноваційні ідеї та підвищувати 

@@ -12,6 +12,7 @@ menu:
 layout: img-left
 sections_folder: page-case-studies
 final_message: "Зацікавило рішення?"
+draft: true
 ---
 
 Компанії, які бажають швидше досягати бізнес результатів та освоювати нові ринки чітко розуміють потребу в ефективному 

@@ -1,15 +1,14 @@
 ---
 title: Insights
-url: '/case-studies/insights'
+url: '/insights'
 omit_header_text: false
 sharing_image: '/general-images/rework_logo_white_bg.png'
 type: page
 menu:
   main:
     identifier: insights
-    parent: case-studies
     name: Insights
-    weight: 1
+    weight: 3
 
 ---
 

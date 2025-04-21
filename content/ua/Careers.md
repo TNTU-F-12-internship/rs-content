@@ -9,7 +9,7 @@ menu:
     identifier: ua-careers
     name: Кар'єра
     weight: 6
-
+draft: true
 ---
 
 У Rework-Space ми створюємо культуру, яка дозволяє нашим людям досягати більшого.
