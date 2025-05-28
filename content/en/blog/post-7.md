@@ -4,9 +4,9 @@ url: '/blog/2024-12-01-rework-space-at-the-8th-cassini-hackathon'
 type: article
 omit_header_text: false
 featured_image: '/static-blog-images/post-7/cassini-defence-2024.png'
-summary_image: '/blog-images/post-7/post-7-short.png'
-sharing_image: '/blog-images/post-7/post-7-short.png'
-twitter_sharing_image: '/blog-images/post-7/post-7-short.png'
+summary_image: '/blog-images/post-7/post-7-short-cassini-2024.png'
+sharing_image: '/blog-images/post-7/post-7-short-cassini-2024.png'
+twitter_sharing_image: '/blog-images/post-7/post-7-short-cassini-2024.png'
 alt: 'Picture for article Rework-Space at the 8th CASSINI Hackathon'
 keywords: ['8th CASSINI Hackathon', 'International Development', 'Innovators', 'Space for Defence and Security', 
            'Copernicus', 'TNTU']
@@ -16,7 +16,7 @@ draft: false
 ---
 
 From November 22-24, 2024, innovators across Europe came together for the
-{{< color-link link_title="EU Space for Defence and Security CASSINI Hackathon" path="https://taikai.network/en/cassinihackathons/hackathons/euspace-defence-security/overview" target="_blank" >}} -
+{{< color-link link_title="EU Space for Defence and Security CASSINI Hackathon" path="https://taikai.network/en/cassinihackathons/hackathons/euspace-defence-security/overview" target="_blank" >}} –
 an initiative powered by the European Union to leverage space technologies for next-generation defence and security 
 solutions. This high-impact event challenged teams of entrepreneurs, engineers, and data scientists to create scalable 
 applications using Copernicus satellite data and EU space infrastructure.
@@ -27,7 +27,7 @@ At
 {{< color-link link_title="Rework-Space" path="https://rework-space.com" target="_blank" >}},
 we believe in the transformative potential of AI, data engineering, and real-time analytics in critical 
 infrastructure and emergency response. Implementing this vision, our team developed
-{{< color-link link_title="DroneSight" path="https://taikai.network/cassinihackathons/hackathons/euspace-defence-security/projects/cm2yk8hgq03y9bsslwti7fzjd/idea" target="_blank" >}} -
+{{< color-link link_title="DroneSight" path="https://taikai.network/cassinihackathons/hackathons/euspace-defence-security/projects/cm2yk8hgq03y9bsslwti7fzjd/idea" target="_blank" >}} –
 a precision intelligence platform for drone-based hazard detection and risk assessment in maritime and riverine 
 environments.
 
