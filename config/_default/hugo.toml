@@ -1,8 +1,8 @@
 baseURL = 'https://localhost'
 title = 'Rework-Space local'
 timeout = 300000
-#theme = ["rs-theme"]
-theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
+theme = ["rs-theme"]
+#theme = ["gitlab.com/rework-space.com/rs-site/rs-theme"]
 
 DefaultContentLanguage = "en"
 Paginate = 3 # for blog page
@@ -101,7 +101,7 @@ enableRobotsTXT = true
   siteLogoMobile = '/general-images/rework_logo.webp'
   mobileMenuLight = true
   header_image_line = '/general-images/background_photo_line.webp'
-  header_background_image = '/general-images/background_photo.webp'
+  header_background_image = '/general-images/background_photo1.jpg'
   default_sharing_image = '/general-images/rework_logo_white_bg.png'
   description = "Modern solutions that become the basis for innovation and help businesses achieve bold goals. At Rework-Space, we take a holistic approach to providing professional services."
   background_color_class = "bg-mid-gray" # header and footer default background color. Choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"

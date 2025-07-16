@@ -5,5 +5,6 @@ services:
     volumes:
       - ".:/src"
       #- "/home/halyna/Documents/Projects/Hugo/RS-Website/rs-theme/:/src/themes/rs-theme/"
+      - ../rs-theme/:/src/themes/rs-theme/
     ports:
       - "1313:1313"
