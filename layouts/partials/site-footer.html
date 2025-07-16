@@ -1,0 +1,336 @@
+<style>
+.modern-footer {
+    background: linear-gradient(180deg, #ffffff 0%, #f8fffe 100%);
+    border-top: 1px solid #e1e8ed;
+    margin-top: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-content {
+    flex: 1;
+    padding-bottom: 120px !important;
+}
+
+@media all and (max-width: 768px) {
+    .page-content {
+        padding-bottom: 130px !important;
+    }
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 1rem;
+}
+
+@media screen and (min-width: 80em) {
+    .footer-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+@media screen and (min-width: 48em) {
+    .footer-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .footer-content {
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+    transform: scale(1.05);
+}
+
+.footer-company-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #008080;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-company-name:hover {
+    color: #006666;
+    text-decoration: none;
+}
+
+.footer-tagline {
+    font-size: 0.875rem;
+    color: #6b7280;
+    line-height: 1.5;
+    max-width: 280px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.footer-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: #008080;
+}
+
+
+
+.footer-contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact-item {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.footer-contact-link {
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact-link:hover {
+    color: #008080;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.footer-social-link {
+    width: 40px;
+    height: 40px;
+    background: #f3f4f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.125rem;
+}
+
+.footer-social-link:hover {
+    background: #008080;
+    color: white;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-top: 1px solid #e5e7eb;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 48em) {
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer-copyright {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 48em) {
+    .footer-links {
+        justify-content: flex-end;
+    }
+}
+
+.footer-link {
+    font-size: 0.75rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #008080;
+    text-decoration: none;
+}
+
+.ananke-socials {
+    display: contents;
+}
+
+.ananke-social-link {
+    width: 40px !important;
+    height: 40px !important;
+    background: #f3f4f6 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #6b7280 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    font-size: 1.125rem !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ananke-social-link:hover {
+    background: #008080 !important;
+    color: white !important;
+    transform: translateY(-2px) !important;
+    text-decoration: none !important;
+}
+
+.ananke-social-link .icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ananke-social-link svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+</style>
+
+<footer class="modern-footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="{{ .Site.Home.RelPermalink }}">
+                    <img src="{{ "/general-images/rework_logo_10grey_008080.webp" | relURL }}" 
+                         alt="{{ .Site.Title }}" 
+                         class="footer-logo">
+                </a>
+                <a href="{{ .Site.Home.RelPermalink }}" class="footer-company-name">
+                    {{ .Site.Title }}
+                </a>
+                <p class="footer-tagline">
+                    {{ .Site.Params.description }}
+                </p>
+            </div>
+
+            <div class="footer-contact">
+                <h3 class="footer-section-title">
+                    {{ if eq .Site.LanguageCode "ua" }}Контакти{{ else }}Contact{{ end }}
+                </h3>
+                <ul class="footer-contact-info">
+                    <li class="footer-contact-item">{{ .Site.Params.customFooterLine1 }}</li>
+                    <li class="footer-contact-item">{{ .Site.Params.customFooterLine2 }}</li>
+                    <li class="footer-contact-item">
+                        <a href="tel:{{ .Site.Params.customFooterLine3 }}" class="footer-contact-link">
+                            {{ .Site.Params.customFooterLine3 }}
+                        </a>
+                    </li>
+                    <li class="footer-contact-item">
+                        <a href="mailto:sales@rework-space.com" class="footer-contact-link">
+                            sales@rework-space.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3 class="footer-section-title">
+                    {{ if eq .Site.LanguageCode "ua" }}Слідкуйте за нами{{ else }}Follow Us{{ end }}
+                </h3>
+                <div class="footer-social-links">
+                    {{ partial "social-follow.html" . }}
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copyright">
+                Copyright &copy; {{ with .Site.Copyright | default .Site.Title }}{{ . | safeHTML }}, {{ now.Format "2006" }}{{ end }} 
+                {{ if eq .Site.LanguageCode "ua" }}Всі права захищені{{ else }}All rights reserved{{ end }}
+            </p>
+            <div class="footer-links">
+                <a href="{{ .Site.Home.Permalink }}{{ .Site.Params.footerPrivacyUrl }}" class="footer-link">
+                    {{ .Site.Params.footerPrivacy }}
+                </a>
+            </div>
+        </div>
+    </div>
+</footer> 
