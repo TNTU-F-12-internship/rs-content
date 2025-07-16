@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ if eq .Params.layout "for-img-section" }}
+<div class="cf ph4 ph5-l pv3 pv4-l f4 f5-ns tc center mw7 lh-copy {{ $.Param "text_color" | default "dark-gray" }}">
+    {{ .Content }}
+</div>
+
+{{ $folder := .Params.sections_folder }}
+{{ $mySections := slice $folder }}
+{{ $sections := where .Site.RegularPages "Section" "in" $mySections }}
+{{ $sections_count := len $sections }}
+
+{{ if ge $sections_count 1 }}
+<div class="pb6-l pb5-m w-90 w-90-m w-50-l center">
+    <div class="flex flex-wrap justify-center items-center">
+        {{/* Range through the section */}}
+        {{ range $sections }}
+        <div class="w-50-l w-50-m w-100 pa3 pv2-ns">
+            <a class="no-underline" href="{{ .Params.path }}" >
+                <h2 class="f2-5 f3-ns tc mv3 " style="color:{{ $.Param "middle_title_color_code" | default "#555555" }};">
+                {{ .Title }}
+                </h2>
+            </a>
+            <a href="{{ .Params.path }}" >
+                {{ partial "image-srcset.html" . }}
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ else }}
+{{/* Default layout */}}
+<article class="cf ph3 ph5-l pv3 pv4-l f4-5 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "dark-gray" }}">
+    {{ .Content }}
+</article>
+{{ end }}
+
+{{/* Recent Blog Posts Section */}}
+{{ partial "recent-blog-posts.html" . }}
+
+<div class="center mt2 tc f4 f5-ns fw4 pt4-ns ph5-ns lh-title" style="color:{{ $.Param "middle_title_color_code" | default "#555555" }};">
+{{ .Params.final_message }}
+</div>
+
+{{ if .Site.Params.footerContactButton }}
+<div class="tc pt4">
+    <a class="f6 link w-20 w-30-m w-50-ns dim br2 ph3 pv2 dib white"
+       style="background-color:{{ $.Param "middle_title_color_code" | default "#555555" }};" href="{{ .Site.Params.footerContactButtonPath }}">
+    {{ .Site.Params.footerContactButton }}
+    </a>
+</div>
+{{ end }}
+
+{{ end }} 
